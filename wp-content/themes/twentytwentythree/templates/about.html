@@ -12,6 +12,26 @@
 	<!-- wp:post-content {"layout":{"type":"constrained"}} /-->
 	<!-- wp:template-part {"slug":"comments","tagName":"section"} /-->
 	<p>HI!</p>
+	
+
+		
+	<?php if( have_rows('award-repeater') ): ?>
+			
+			<?php while( have_rows('award-repeater') ): the_row(); 
+				
+				$award = get_sub_field('award');
+			
+				
+				?>
+				<div class="partner">
+					<div class="partner-copy">
+						<h2><?php the_sub_field('award'); ?></h2>
+						
+					</div>
+				</div>
+			<?php endwhile; ?>
+		
+		<?php endif; ?>
 </main>
 <!-- /wp:group -->
 
