@@ -15,7 +15,7 @@ get_header();
 ?>
 <?php the_post(); ?>
 <?php the_content(); ?>
-<h2><?php echo esc_html( get_field('heading') ); ?></h2>
+<h2><?php echo esc_html( get_field('simple') ); ?></h2>
 
 <?php
 get_footer();
