@@ -10,8 +10,13 @@ License: GNU General Public License v2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 */
 
+.home #masthead{
+display:none;
 
-
+}
+.home{
+    background:#2B98B0;
+}
 /* ABOUT PAGE */
 
 /* AWARDS REPEATER */
