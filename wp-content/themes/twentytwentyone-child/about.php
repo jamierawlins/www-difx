@@ -15,7 +15,6 @@ get_header();
 ?>
 <?php the_post(); ?>
 <?php the_content(); ?>
-<?php echo esc_html( get_field('simple') ); ?>
 
 
 <div class="awards">

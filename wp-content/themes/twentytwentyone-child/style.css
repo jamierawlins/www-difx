@@ -24,7 +24,9 @@ License URI: https://www.gnu.org/licenses/gpl-2.0.html
     display: flex;
     list-style-type: none;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-between;
+    padding: 0;
+    margin: 0;
 }
 .award-repeater li{
     display: flex;
@@ -33,7 +35,8 @@ License URI: https://www.gnu.org/licenses/gpl-2.0.html
     justify-content: center;
     background: #E4E4E4;
     padding: 2em;
-    width: 33%;
+    width: 32%;
+    text-align: center;
 }
 /* AWARDS REPEATER END*/
 
