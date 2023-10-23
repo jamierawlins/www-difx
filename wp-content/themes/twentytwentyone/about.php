@@ -39,6 +39,19 @@ else :
 endif;
 ?>
 
+<?php if( have_rows('clients-repeater') ): ?>
+    <ul class="clients-repeater">
+    <?php while( have_rows('clients-repeater') ): the_row(); 
+        $image = get_sub_field('image');
+        ?>
+        <li>
+            
+            <p><?php the_sub_field('client'); ?></p>
+        </li>
+    <?php endwhile; ?>
+    </ul>
+<?php endif; ?>
+
 
 <?php
 get_footer();
