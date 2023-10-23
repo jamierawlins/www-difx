@@ -40,7 +40,7 @@
 					<div class="project-detail">
 						<h3>Client</h3>		
 						
-						<?php echo $credentials['client']; ?>
+						<?php echo $credentials['client-name']; ?>
 					</div>
 					<div class="project-detail">
 						<h3>Date</h3>
