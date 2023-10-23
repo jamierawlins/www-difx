@@ -35,10 +35,12 @@
 					<div class="project-detail">
 						<h3>Channel / Service</h3>
 						<?php get_sub_field('channel-service'); ?>
+						<?php echo $hero['channel-service']; ?>
 					</div>
 					<div class="project-detail">
 						<h3>Client</h3>		
 						<?php get_sub_field( $credentials['client'] ); ?>
+						<?php echo $hero['client']; ?>
 					</div>
 					<div class="project-detail">
 						<h3>Date</h3>
