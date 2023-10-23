@@ -41,7 +41,7 @@
 
 		<?php
 			$credentials = get_field('credentials');
-			if( $hcredentialsero ): ?>
+			if( $credentials ): ?>
 				<div id="credentials">
 					<img src="<?php echo esc_url( $credentials['image']['url'] ); ?>" alt="<?php echo esc_attr( $credentials['image']['alt'] ); ?>" />
 					<div class="content">
