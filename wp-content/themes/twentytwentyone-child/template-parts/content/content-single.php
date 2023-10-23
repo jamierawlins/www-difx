@@ -58,8 +58,8 @@
 
 
 				<style type="text/css">
-					#credentials {
-						background-color: <?php echo esc_attr( $credentials['color'] ); ?>;
+					.right-project-details {
+						background-color: <?php the_field('color-one'); ?>;
 					}
 				</style>
 			<?php endif; ?>
