@@ -14,6 +14,30 @@ License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
 /* ABOUT PAGE */
 
+/* AWARDS REPEATER */
+.awards{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.award-repeater{
+    display: flex;
+    list-style-type: none;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.award-repeater li{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: #E4E4E4;
+    padding: 2em;
+    width: 33%;
+}
+/* AWARDS REPEATER END*/
+
+/* CLIENTS REPEATER */
 .clients{
     background: black;
     color: white;
@@ -23,7 +47,15 @@ License URI: https://www.gnu.org/licenses/gpl-2.0.html
     align-items: center;
     padding: 4em;
 }
+.clients ul{
+    margin: 0;
+    padding: 0;
+}
 .clients ul li{
     display: inline-block;
     margin: 0 1em 0.5em 1em;
 }
+/* CLIENTS REPEATER END */
+
+
+/* ABOUT PAGE END */

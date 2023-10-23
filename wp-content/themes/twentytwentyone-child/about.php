@@ -24,7 +24,7 @@ get_header();
         <ul class="award-repeater">
         <?php while( have_rows('award-repeater') ): the_row(); ?>
             <li>
-                <p><?php the_sub_field('award'); ?></p>
+                <h3><?php the_sub_field('award'); ?></h3>
                 <p><?php the_sub_field('award-ceremony'); ?></p>
                 <p><?php the_sub_field('award-date'); ?></p>
             </li>
