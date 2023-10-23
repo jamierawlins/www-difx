@@ -10,3 +10,20 @@ License: GNU General Public License v2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 */
 
+
+
+/* ABOUT PAGE */
+
+.clients{
+    background: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 4em;
+}
+.clients ul li{
+    display: inline-block;
+    margin: 0 1em 0.5em 1em;
+}
