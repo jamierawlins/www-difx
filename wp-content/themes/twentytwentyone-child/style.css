@@ -60,6 +60,7 @@ display:none;
 .hero figure img{
     padding-top: 0;
     margin-top: 0px!important;
+    max-width:100%!important;
 }
 
 /* ABOUT PAGE */
