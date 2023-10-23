@@ -15,43 +15,39 @@ get_header();
 ?>
 <?php the_post(); ?>
 <?php the_content(); ?>
-<h2><?php echo esc_html( get_field('simple') ); ?></h2>
+<?php echo esc_html( get_field('simple') ); ?>
 
 
-<?php
+<div class="awards">
+    <h2>Awards</h2>
+    <?php if( have_rows('award-repeater') ): ?>
+        <ul class="award-repeater">
+        <?php while( have_rows('award-repeater') ): the_row(); ?>
+            <li>
+                <p><?php the_sub_field('award'); ?></p>
+                <p><?php the_sub_field('award-ceremony'); ?></p>
+                <p><?php the_sub_field('award-date'); ?></p>
+            </li>
+        <?php endwhile; ?>
+        </ul>
+    <?php endif; ?>
+</div>
 
-// Check rows exists.
-if( have_rows('clients-repeater') ):
-
-    // Loop through rows.
-    while( have_rows('clients-repeater') ) : the_row();
-
-        // Load sub field value.
-        $sub_value = get_sub_field('client');
-        // Do something...
-
-    // End loop.
-    endwhile;
-
-// No value.
-else :
-    // Do something...
-endif;
-?>
-
-<?php if( have_rows('clients-repeater') ): ?>
-    <ul class="clients-repeater">
-    <?php while( have_rows('clients-repeater') ): the_row(); 
-        $image = get_sub_field('image');
-        ?>
-        <li>
-            
-            <p><?php the_sub_field('client'); ?></p>
-        </li>
-    <?php endwhile; ?>
-    </ul>
-<?php endif; ?>
-
+<div class="clients">
+    <h2>Clients</h2>
+    <?php if( have_rows('clients-repeater') ): ?>
+        <ul class="clients-repeater">
+        <?php while( have_rows('clients-repeater') ): the_row(); 
+            $image = get_sub_field('image');
+            ?>
+            <li>
+                
+                <p><?php the_sub_field('client'); ?></p>
+            </li>
+        <?php endwhile; ?>
+        </ul>
+    <?php endif; ?>
+</div>
 
 <?php
 get_footer();
