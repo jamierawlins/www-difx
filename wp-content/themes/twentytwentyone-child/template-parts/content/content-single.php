@@ -22,21 +22,7 @@
 
 
 
-		<div class="right-project-details">
-			<div class="project-detail">
-				<h3>Channel / Service</h3>
-				<?php the_sub_field('Client'); ?>
-			</div>
-			<div class="project-detail">
-				<h3>Client</h3>
-			</div>
-			<div class="project-detail">
-				<h3>Date</h3>
-			</div>
-			<div class="project-detail">
-				<h3>IMDB</h3>
-			</div>
-		</div>
+		
 
 
 		<?php
@@ -48,7 +34,7 @@
 				<div class="right-project-details">
 					<div class="project-detail">
 						<h3>Channel / Service</h3>
-						<?php the_sub_field('channel-service'); ?>
+						<?php echo esc_html('channel-service'); ?>
 					</div>
 					<div class="project-detail">
 						<h3>Client</h3>		
