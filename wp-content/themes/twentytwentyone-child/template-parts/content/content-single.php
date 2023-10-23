@@ -34,11 +34,11 @@
 				<div class="right-project-details">
 					<div class="project-detail">
 						<h3>Channel / Service</h3>
-						<?php echo esc_html('channel-service'); ?>
+						<?php get_sub_field('channel-service'); ?>
 					</div>
 					<div class="project-detail">
 						<h3>Client</h3>		
-						<?php echo esc_html( $credentials['client'] ); ?>
+						<?php get_sub_field( $credentials['client'] ); ?>
 					</div>
 					<div class="project-detail">
 						<h3>Date</h3>
