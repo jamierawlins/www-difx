@@ -17,6 +17,51 @@ display:none;
 .home{
     background:#2B98B0!important;
 }
+
+
+
+
+
+
+/* HEADER */
+@media screen and (min-width: 768px) {
+    header{
+        position: fixed;
+        width: 100%;
+        z-index: 10;
+    }
+    .primary-menu-list li a{
+        color:white!important;
+    }
+}
+/* HEADER END */
+
+
+.site-main{
+    padding-top:0px!important;
+}
+#main{
+    padding-top: 0px!important;
+}
+.hero{
+    position: relative;
+}
+.hero h1{
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    color:white!important;
+}
+.hero figure{
+    width: 100%;
+    margin: 0;
+    padding: 0; 
+}
+.hero figure img{
+    padding-top: 0;
+    margin-top: 0px;
+}
+
 /* ABOUT PAGE */
 
 /* AWARDS REPEATER */
