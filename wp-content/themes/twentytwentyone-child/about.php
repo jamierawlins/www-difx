@@ -13,6 +13,10 @@
 
 get_header();
 ?>
+<div class="hero">
+    <?php the_title( '<h1 class="entry-title">', '</h1>' ); ?>
+    <?php twenty_twenty_one_post_thumbnail(); ?>
+</div>
 <?php the_post(); ?>
 <?php the_content(); ?>
 
