@@ -17,8 +17,23 @@
 		<?php the_title( '<h1 class="entry-title">', '</h1>' ); ?>
 		<?php twenty_twenty_one_post_thumbnail(); ?>
 	</header><!-- .entry-header -->
-<h2>	OI OI!!</h2>
+
 	<div class="entry-content">
+
+		<div class="right-project-details">
+			<div class="project-detail">
+				<h3>Channel / Service</h3>
+			</div>
+			<div class="project-detail">
+				<h3>Client</h3>
+			</div>
+			<div class="project-detail">
+				<h3>Date</h3>
+			</div>
+			<div class="project-detail">
+				<h3>IMDB</h3>
+			</div>
+		</div>
 		<?php
 		the_content();
 
@@ -31,6 +46,7 @@
 			)
 		);
 		?>
+		
 	</div><!-- .entry-content -->
 
 	<footer class="entry-footer default-max-width">
