@@ -59,7 +59,7 @@
 
 				<style type="text/css">
 					.right-project-details {
-						background-color: <?php the_field('color-one'); ?>;
+						background-color: <?php the_field('colour-one'); ?>;
 					}
 				</style>
 			<?php endif; ?>
