@@ -20,9 +20,12 @@
 
 	<div class="entry-content">
 
+
+
 		<div class="right-project-details">
 			<div class="project-detail">
 				<h3>Channel / Service</h3>
+				<?php the_sub_field('Client'); ?>
 			</div>
 			<div class="project-detail">
 				<h3>Client</h3>
@@ -34,6 +37,31 @@
 				<h3>IMDB</h3>
 			</div>
 		</div>
+
+
+		<?php
+			$credentials = get_field('credentials');
+			if( $hcredentialsero ): ?>
+				<div id="credentials">
+					<img src="<?php echo esc_url( $credentials['image']['url'] ); ?>" alt="<?php echo esc_attr( $credentials['image']['alt'] ); ?>" />
+					<div class="content">
+						
+						<?php echo esc_html( $credentials['Client'] ); ?>
+					</div>
+					<div class="content">
+						<?php echo $credentials['caption']; ?>
+						<a href="<?php echo esc_url( $credentials['link']['url'] ); ?>"><?php echo esc_html( $credentials['link']['title'] ); ?></a>
+					</div>
+				</div>
+				<style type="text/css">
+					#credentials {
+						background-color: <?php echo esc_attr( $credentials['color'] ); ?>;
+					}
+				</style>
+			<?php endif; ?>
+
+
+
 		<?php
 		the_content();
 
