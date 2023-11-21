@@ -33,6 +33,6 @@ $description = get_the_archive_description();
 <?php else : ?>
 	<?php get_template_part( 'template-parts/content/content-none' ); ?>
 <?php endif; ?>
-<p>footy</p>
+<p>footyer</p>
 <?php
 get_footer();
