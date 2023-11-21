@@ -15,10 +15,6 @@ $description = get_the_archive_description();
 ?>
 
 
-
-<?php
-the_archive_description( '<div class="taxonomy-description">', '</div>' );
-?>
 <?php if ( have_posts() ) : ?>
 
 <header class="page-header alignwide">
