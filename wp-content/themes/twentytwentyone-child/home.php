@@ -22,4 +22,47 @@ get_header();
 
 
 <?php
+
+    $cat_args = array(
+        'orderby'      => 'date',
+        'order'        => 'DESC',
+        'child_of'     => 0,
+        'parent'       => '',
+        'type'         => 'post',
+        'hide_empty'   => true,
+        'taxonomy'     => 'category',
+    );
+
+    $categories = get_categories( $cat_args );
+
+    foreach ( $categories as $category ) {
+
+        $query_args = array(
+            'post_type'      => 'post',
+            'category_name'  => $category->slug,
+            'posts_per_page' => 2,
+            'orderby'        => 'date',
+            'order'          => 'DESC'
+        );
+
+        $recent = new WP_Query($query_args);
+
+        while( $recent->have_posts() ) :
+            $recent->the_post();
+        ?>
+        <div class="element-item transition <?php echo $category->slug;?>" data-category="<?php echo $category->slug;?>">
+            <a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>">
+                <div class="descrip">
+                    <h2><?php the_title(); ?></h2>
+                 </div>
+            </a>
+        </div>
+        <?php endwhile;
+    }
+    wp_reset_postdata();
+?>
+
+
+
+<?php
 get_footer();
