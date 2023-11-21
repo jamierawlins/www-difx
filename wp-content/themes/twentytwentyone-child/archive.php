@@ -17,16 +17,10 @@ $description = get_the_archive_description();
 
 <?php if ( have_posts() ) : ?>
 
-<div class="hero">
-	<h1 class="entry-title">Projects</h1>
-    <img src="http://digitalimagingfx.com/wp-content/uploads/2023/11/project-hero-1.jpg">
-</div>
-
-<?php the_post(); ?>
-<?php the_content(); ?>
-
-
-
+<header class="page-header alignwide">
+	<h1 class="page-title">PROJECTS</h1>
+	
+</header><!-- .page-header -->
 <?php if ( $description ) : ?>
 		<div class="archive-description"><?php echo wp_kses_post( wpautop( $description ) ); ?></div>
 	<?php endif; ?>
