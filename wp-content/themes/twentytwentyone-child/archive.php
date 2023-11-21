@@ -23,16 +23,14 @@ $description = get_the_archive_description();
 the_archive_description( '<div class="taxonomy-description">', '</div>' );
 ?>
 <?php if ( have_posts() ) : ?>
+
+
+		<?php the_title( '<h1 class="entry-title">', '</h1>' ); ?>
+		<?php twenty_twenty_one_post_thumbnail(); ?>
+
 	
-<?php while ( have_posts() ) : ?>
-		<?php the_post(); ?>
-		<?php get_template_part( 'template-parts/content/content', get_theme_mod( 'display_excerpt_or_full_post', 'excerpt' ) ); ?>
-	<?php endwhile; ?>
 
-	<?php twenty_twenty_one_the_posts_navigation(); ?>
 
-<?php else : ?>
-	<?php get_template_part( 'template-parts/content/content-none' ); ?>
 <?php endif; ?>
 
 <?php
