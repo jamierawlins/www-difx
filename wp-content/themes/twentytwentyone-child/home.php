@@ -63,6 +63,8 @@ get_header();
     wp_reset_postdata();
 ?>
 
+<a href="/projects">View all Projects</a>
+
 
 
 <?php
