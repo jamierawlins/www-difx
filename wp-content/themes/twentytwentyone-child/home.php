@@ -50,13 +50,11 @@ get_header();
         while( $recent->have_posts() ) :
             $recent->the_post();
         ?>
-        <div class="element-item transition <?php echo $category->slug;?>" data-category="<?php echo $category->slug;?>">
-            <a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>">
-                <div class="descrip">
-                    <h2><?php the_title(); ?></h2>
-                 </div>
-            </a>
-        </div>
+        <article>
+	<?php the_post(); ?>
+	<?php the_title( '<h1 class="entry-title default-max-width">', '</h1>' ); ?>
+	<?php twenty_twenty_one_post_thumbnail(); ?>
+</article>
         <?php endwhile;
     }
     wp_reset_postdata();
