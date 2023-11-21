@@ -19,8 +19,12 @@ $description = get_the_archive_description();
 
 <header class="page-header alignwide">
 	<h1 class="page-title">PROJECTS</h1>
-	
+	<img src="http://digitalimagingfx.com/wp-content/uploads/2023/11/project-hero-1.jpg" />	
 </header><!-- .page-header -->
+
+
+
+
 <?php if ( $description ) : ?>
 		<div class="archive-description"><?php echo wp_kses_post( wpautop( $description ) ); ?></div>
 	<?php endif; ?>
