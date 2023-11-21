@@ -13,6 +13,13 @@ get_header();
 
 $description = get_the_archive_description();
 ?>
+<div class="hero">
+    <?php the_title( '<h1 class="entry-title">', '</h1>' ); ?>
+    <?php twenty_twenty_one_post_thumbnail(); ?>
+</div>
+<?php
+the_archive_description( '<div class="taxonomy-description">', '</div>' );
+?>
 
 <?php if ( have_posts() ) : ?>
 	<div class="hero">
