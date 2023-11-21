@@ -17,11 +17,11 @@ $description = get_the_archive_description();
 
 <?php if ( have_posts() ) : ?>
 
-<header class="page-header alignwide">
-	<h1 class="page-title">PROJECTS</h1>
-	<img src="http://digitalimagingfx.com/wp-content/uploads/2023/11/project-hero-1.jpg" />	
-</header><!-- .page-header -->
 
+<div class="hero">
+<h1 class="page-title">PROJECTS</h1>
+	<img src="http://digitalimagingfx.com/wp-content/uploads/2023/11/project-hero-1.jpg" />
+</div>
 
 
 
