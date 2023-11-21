@@ -26,7 +26,8 @@ $description = get_the_archive_description();
 	<?php endif; ?>
 <?php while ( have_posts() ) : ?>
 	<?php the_post(); ?>
-	
+	<?php the_title( '<h1 class="entry-title default-max-width">', '</h1>' ); ?>
+	<?php twenty_twenty_one_post_thumbnail(); ?>
 <?php endwhile; ?>
 
 <?php twenty_twenty_one_the_posts_navigation(); ?>
