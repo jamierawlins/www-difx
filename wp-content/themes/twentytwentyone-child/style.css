@@ -209,7 +209,11 @@ header.entry-header figure img{
 }
 .projects-wrap .project:hover figure{
     height: 400px;
-    transition: all 2.5s ease;
+    transition: all 1s ease;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    -o-transition: all 1s ease;
 }
 
 .projects-wrap .project:hover figure img{
