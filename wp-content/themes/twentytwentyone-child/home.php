@@ -61,7 +61,7 @@ get_header();
         <div class="project">
             <a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>">
                 <div class="description" style="background-color:<?php the_field('colour-one'); ?>">
-                    <svg style="background-color:<?php the_field('colour-two'); ?>" xmlns="http://www.w3.org/2000/svg" class="project-top-shape" width="339" height="327" viewBox="0 0 339 327" fill="none">
+                    <svg style="fill:<?php the_field('colour-two'); ?>" xmlns="http://www.w3.org/2000/svg" class="project-top-shape" width="339" height="327" viewBox="0 0 339 327" fill="none">
                     <h2><?php the_title(); ?></h2>
                  </div>
                  <?php twenty_twenty_one_post_thumbnail(); ?>
