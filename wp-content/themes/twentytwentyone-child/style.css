@@ -168,7 +168,8 @@ header.entry-header figure img{
     max-width: 339px;
 }
 .projects-wrap .project h2{
-    
+    z-index: 10;
+    position: relative;
 }
 .projects-wrap .project figure{
     margin: 0;
