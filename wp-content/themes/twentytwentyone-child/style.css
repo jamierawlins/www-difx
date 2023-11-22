@@ -157,6 +157,8 @@ header.entry-header figure img{
 }
 .projects-wrap .project{
     height: 430px;
+    position: relative;
+    transition-duration: 2s;
 }
 .projects-wrap .project .description{
     height:200px;
@@ -189,6 +191,7 @@ header.entry-header figure img{
 .projects-wrap .project:hover figure img{
     height:100%!important;
     width:auto!important;
+
 }
 .projects-wrap .project figure img{
     padding: 0;
