@@ -206,6 +206,11 @@ header.entry-header figure img{
     height: 400px;
     transition: all 2.5s ease;
 }
+@media screen and (min-width: 768px) {
+    .projects-wrap .project:hover figure{
+        width:100%;
+    }
+}
 .projects-wrap .project:hover figure img{
     height:100%!important;
     width:auto!important;
