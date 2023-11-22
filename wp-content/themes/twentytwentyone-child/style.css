@@ -158,18 +158,21 @@ header.entry-header figure img{
 .projects-wrap .project{
     height: 400px;
     position: relative;
-
     overflow:hidden;
 
 }
-
+@media screen and (min-width: 768px) {
+    .projects-wrap .project{
+        height:800px;
+    }
+}
 .projects-wrap .project .description{
     height:200px;
     position:relative;
 }
 @media screen and (min-width: 768px) {
     .projects-wrap .project .description{
-        height:400px;
+        height:800px;
         position:relative;
     }
 }
@@ -205,16 +208,7 @@ header.entry-header figure img{
         top:0px;
     }
 }
-@media screen and (min-width: 768px) {
-    .projects-wrap .project:hover figure{
-        width:100%!important;
-        transition: all .5s ease;
-        -webkit-transition: all .5s ease;
-        -moz-transition: all .5s ease;
-        -ms-transition: all .5s ease;
-        -o-transition: all .5s ease;
-}
-}
+
 .projects-wrap .project:hover figure{
     height: 400px;
     transition: all .5s ease;
@@ -223,7 +217,17 @@ header.entry-header figure img{
     -ms-transition: all .5s ease;
     -o-transition: all .5s ease;
 }
-
+@media screen and (min-width: 768px) {
+    .projects-wrap .project:hover figure{
+        width:100%!important;
+        height:800px;
+        transition: all .5s ease;
+        -webkit-transition: all .5s ease;
+        -moz-transition: all .5s ease;
+        -ms-transition: all .5s ease;
+        -o-transition: all .5s ease;
+    }
+}
 .projects-wrap .project:hover figure img{
     height:100%!important;
     width:auto!important;
