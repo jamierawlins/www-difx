@@ -202,6 +202,11 @@ header.entry-header figure img{
         width: 50%;
     }
 }
+@media screen and (min-width: 768px) {
+    .projects-wrap .project:hover figure{
+        width:100%!important;
+    }
+}
 .projects-wrap .project:hover figure{
     height: 400px;
     transition: all 2.5s ease;
@@ -214,10 +219,12 @@ header.entry-header figure img{
 
 }
 @media screen and (min-width: 768px) {
-    .projects-wrap .project:hover figure{
-        width:100%!important;
+    .projects-wrap .project:hover figure img{
+        height: auto!important;
+width: 100%!important;
     }
 }
+
 .projects-wrap .project figure img{
     padding: 0;
     margin: 0;
