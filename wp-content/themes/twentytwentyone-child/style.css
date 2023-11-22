@@ -158,12 +158,12 @@ header.entry-header figure img{
 .projects-wrap .project{
     height: 430px;
     position: relative;
-    transform:all 2s ease;
+    transition: all 2.5s ease;
     overflow:hidden;
-    -webkit-transform:all 2s ease;
-    -moz-transform:all 2s ease;
-    -ms-transform:all 2s ease;
-    -o-transform:all 2s ease;
+    -webkit-transition: all 2.5s ease;
+    -moz-transition: all 2.5s ease;
+    -ms-transition: all 2.5s ease;
+    -o-transition: all 2.5s ease;
 }
 .projects-wrap .project .description{
     height:200px;
