@@ -192,10 +192,12 @@ header.entry-header figure img{
 }
 .projects-wrap .project:hover figure{
     height: 430px;
+    transition: all 2.5s ease;
 }
 .projects-wrap .project:hover figure img{
     height:100%!important;
     width:auto!important;
+    transition: all 2.5s ease;
 
 }
 .projects-wrap .project figure img{
