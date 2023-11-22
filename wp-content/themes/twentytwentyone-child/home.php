@@ -20,6 +20,9 @@ get_header();
 </div>
 <div class="home-intro-wrapper">
 <img src="../../../wp-content/themes/twentytwentyone-child/images/intro-circle-top.svg" alt="circle" width="467" height="659">
+<svg xmlns="http://www.w3.org/2000/svg" width="339" height="327" viewBox="0 0 339 327" fill="none">
+<path d="M0 327C0 327 339 278.75 339 0H0V327Z" fill="black"/>
+</svg>
     <?php the_post(); ?>
     <?php the_content(); ?>
     <img src="../../../wp-content/themes/twentytwentyone-child/images/intro-circle-bottom.svg" alt="circle" width="467" height="659">
