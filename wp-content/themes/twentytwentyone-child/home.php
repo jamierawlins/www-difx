@@ -28,6 +28,7 @@ get_header();
     <path d="M869 6.10352e-05C869 6.10352e-05 1.48979e-06 123.798 -6.10352e-05 839L869 839L869 6.10352e-05Z" fill="black"/>
     </svg>
 </div>
+<div class="projects-wrap">
 <?php
 
     $cat_args = array(
@@ -57,7 +58,7 @@ get_header();
         while( $recent->have_posts() ) :
             $recent->the_post();
         ?>
-        <div class="element-item transition <?php echo $category->slug;?>" data-category="<?php echo $category->slug;?>">
+        <div class="project">
             <a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>">
                 <div class="description">
                     <h2 style="background-color:<?php the_field('colour-one'); ?>"><?php the_title(); ?></h2>
@@ -69,6 +70,7 @@ get_header();
     }
     wp_reset_postdata();
 ?>
+</div>
 
 <a href="/projects">View all Projects</a>
 

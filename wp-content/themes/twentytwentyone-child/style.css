@@ -139,6 +139,7 @@ header.entry-header figure img{
 .top-shape{
     width:50%;
     height:auto;
+    max-width: 339px;
 }
 .bottom-shape{
     width: 33%;
@@ -146,5 +147,6 @@ header.entry-header figure img{
     position: absolute;
     bottom: 0;
     right: 0;
+    max-width:869px;
 }
 /* HOME PAGE END */
