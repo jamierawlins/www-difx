@@ -149,4 +149,19 @@ header.entry-header figure img{
     right: 0;
     max-width:869px;
 }
+
+.projects-wrap{
+    position:relative;
+    padding:0;
+    margin:0;
+}
+
+.projects-wrap .project h2{
+    position:absolute;
+}
+.projects-wrap .project figure{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
 /* HOME PAGE END */
