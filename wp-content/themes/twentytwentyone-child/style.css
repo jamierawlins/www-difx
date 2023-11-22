@@ -163,7 +163,7 @@ header.entry-header figure img{
 }
 @media screen and (min-width: 768px) {
     .projects-wrap .project{
-        height:800px;
+        height:600px;
     }
 }
 .projects-wrap .project .description{
@@ -172,7 +172,7 @@ header.entry-header figure img{
 }
 @media screen and (min-width: 768px) {
     .projects-wrap .project .description{
-        height:800px;
+        height:600px;
         position:relative;
     }
 }
@@ -220,7 +220,7 @@ header.entry-header figure img{
 @media screen and (min-width: 768px) {
     .projects-wrap .project:hover figure{
         width:100%!important;
-        height:800px;
+        height:600px;
         transition: all .5s ease;
         -webkit-transition: all .5s ease;
         -moz-transition: all .5s ease;
