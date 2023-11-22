@@ -158,12 +158,9 @@ header.entry-header figure img{
 .projects-wrap .project{
     height: 400px;
     position: relative;
-    transition: all 1s ease;
+
     overflow:hidden;
-    -webkit-transition: all 1s ease;
-    -moz-transition: all 1s ease;
-    -ms-transition: all 1s ease;
-    -o-transition: all 1s ease;
+
 }
 
 .projects-wrap .project .description{
@@ -222,11 +219,7 @@ header.entry-header figure img{
 .projects-wrap .project:hover figure img{
     height:100%!important;
     width:auto!important;
-    transition: all 1s ease;
-    -webkit-transition: all 1s ease;
-    -moz-transition: all 1s ease;
-    -ms-transition: all 1s ease;
-    -o-transition: all 1s ease;
+
 }
 
 @media screen and (min-width: 768px) {
@@ -241,9 +234,9 @@ header.entry-header figure img{
     margin: 0;
     object-fit: cover;
     width: 100%!important;
-    height: auto!important;
     max-width: 100%!important;
-    transition: all 1s ease;
+    max-width: 100%!important;
+
 }
 
 .projects-wrap .project:nth-child(2) .description svg{
