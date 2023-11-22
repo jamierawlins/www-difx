@@ -192,8 +192,12 @@ header.entry-header figure img{
     padding: 0;
     width: 100%;
     position: absolute;
-    bottom: 0px; 
-    transition: all 1s ease;
+    bottom: 0px;
+    transition: all .5s ease;
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    -ms-transition: all .5s ease;
+    -o-transition: all .5s ease;
 }
 @media screen and (min-width: 768px) {
     .projects-wrap .project figure{
@@ -204,16 +208,20 @@ header.entry-header figure img{
 @media screen and (min-width: 768px) {
     .projects-wrap .project:hover figure{
         width:100%!important;
-        transition: all 1s ease;
-    }
+        transition: all .5s ease;
+        -webkit-transition: all .5s ease;
+        -moz-transition: all .5s ease;
+        -ms-transition: all .5s ease;
+        -o-transition: all .5s ease;
+}
 }
 .projects-wrap .project:hover figure{
     height: 400px;
-    transition: all 1s ease;
-    -webkit-transition: all 1s ease;
-    -moz-transition: all 1s ease;
-    -ms-transition: all 1s ease;
-    -o-transition: all 1s ease;
+    transition: all .5s ease;
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    -ms-transition: all .5s ease;
+    -o-transition: all .5s ease;
 }
 
 .projects-wrap .project:hover figure img{
