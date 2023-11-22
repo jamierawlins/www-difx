@@ -156,7 +156,7 @@ header.entry-header figure img{
     margin:0;
 }
 .projects-wrap .project{
-    height: 430px;
+    height: 400px;
     position: relative;
     transition: all 2.5s ease;
     overflow:hidden;
@@ -165,9 +165,16 @@ header.entry-header figure img{
     -ms-transition: all 2.5s ease;
     -o-transition: all 2.5s ease;
 }
+
 .projects-wrap .project .description{
     height:200px;
     position:relative;
+}
+@media screen and (min-width: 768px) {
+    .projects-wrap .project .description{
+        height:400px;
+        position:relative;
+    }
 }
 .projects-wrap .project .description svg{
     position:absolute;
@@ -191,7 +198,7 @@ header.entry-header figure img{
     bottom: 0px; 
 }
 .projects-wrap .project:hover figure{
-    height: 430px;
+    height: 400px;
     transition: all 2.5s ease;
 }
 .projects-wrap .project:hover figure img{
