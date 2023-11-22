@@ -22,6 +22,7 @@ get_header();
 <img src="../../../wp-content/themes/twentytwentyone-child/images/intro-circle-top.svg" alt="circle" width="467" height="659">
     <?php the_post(); ?>
     <?php the_content(); ?>
+    <img src="../../../wp-content/themes/twentytwentyone-child/images/intro-circle-bottom.svg" alt="circle" width="467" height="659">
 </div>
 <?php
 
