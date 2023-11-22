@@ -16,9 +16,10 @@ get_header();
 <div class="hero">
 <h1 class="page-title">DIFX</h1>
 	<img src="http://digitalimagingfx.com/wp-content/uploads/2023/11/project-hero-1.jpg" />
+    
 </div>
 <div class="home-intro-wrapper">
-    
+<img src="../../../wp-content/themes/twentytwentyone-child/images/intro-circle-top.svg" alt="circle" width="467" height="659">
     <?php the_post(); ?>
     <?php the_content(); ?>
 </div>
