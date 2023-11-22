@@ -155,9 +155,12 @@ header.entry-header figure img{
     padding:0;
     margin:0;
 }
+.projects-wrap .project .description{
+    height:200px;
+}
 
 .projects-wrap .project h2{
-    position:absolute;
+    
 }
 .projects-wrap .project figure{
     margin: 0;
