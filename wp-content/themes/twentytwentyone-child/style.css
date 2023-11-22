@@ -19,10 +19,6 @@ display:none;
 }
 
 
-
-
-
-
 /* HEADER */
 @media screen and (min-width: 768px) {
     .site-header{
@@ -121,3 +117,12 @@ header.entry-header figure img{
 
 
 /* ABOUT PAGE END */
+
+
+/* HOME PAGE */
+
+.wp-block-group{
+    margin:0 1em;
+}
+
+/* HOME PAGE END */
