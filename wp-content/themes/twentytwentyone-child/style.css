@@ -206,6 +206,7 @@ header.entry-header figure img{
 @media screen and (min-width: 768px) {
     .projects-wrap .project:hover figure{
         width:100%!important;
+        transition: all 1s ease;
     }
 }
 .projects-wrap .project:hover figure{
@@ -226,6 +227,7 @@ header.entry-header figure img{
     -ms-transition: all 1s ease;
     -o-transition: all 1s ease;
 }
+
 @media screen and (min-width: 768px) {
     .projects-wrap .project:hover figure img{
         height: auto!important;
@@ -240,6 +242,7 @@ header.entry-header figure img{
     width: 100%!important;
     height: auto!important;
     max-width: 100%!important;
+    transition: all 1s ease;
 }
 
 .projects-wrap .project:nth-child(2) .description svg{
