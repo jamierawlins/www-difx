@@ -120,9 +120,8 @@ header.entry-header figure img{
 
 
 /* HOME PAGE */
-
-.wp-block-group{
-    margin:0 1em;
+.page-template-home .wp-block-group{
+    margin: 4em 1em;
 }
 
 /* HOME PAGE END */

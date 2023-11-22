@@ -18,6 +18,7 @@ get_header();
 	<img src="http://digitalimagingfx.com/wp-content/uploads/2023/11/project-hero-1.jpg" />
 </div>
 <div class="home-intro-wrapper">
+    
     <?php the_post(); ?>
     <?php the_content(); ?>
 </div>
