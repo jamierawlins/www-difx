@@ -157,8 +157,16 @@ header.entry-header figure img{
 }
 .projects-wrap .project .description{
     height:200px;
+    position:relative;
 }
-
+.projects-wrap .project .description svg{
+    position:absolute;
+    top:0px;
+    left:0px;    
+    width:50%;
+    height:auto;
+    max-width: 339px;
+}
 .projects-wrap .project h2{
     
 }
