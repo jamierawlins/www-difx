@@ -196,6 +196,7 @@ header.entry-header figure img{
     width: 100%;
     position: absolute;
     bottom: 0px; 
+    transition: all 1s ease;
 }
 @media screen and (min-width: 768px) {
     .projects-wrap .project figure{
