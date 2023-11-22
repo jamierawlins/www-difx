@@ -60,10 +60,10 @@ get_header();
         ?>
         <div class="project">
             <a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>">
-                <div class="description">
-                    <h2 style="background-color:<?php the_field('colour-one'); ?>"><?php the_title(); ?></h2>
-                    <?php twenty_twenty_one_post_thumbnail(); ?>
+                <div class="description" style="background-color:<?php the_field('colour-one'); ?>">
+                    <h2><?php the_title(); ?></h2>
                  </div>
+                 <?php twenty_twenty_one_post_thumbnail(); ?>
             </a>
         </div>
         <?php endwhile;

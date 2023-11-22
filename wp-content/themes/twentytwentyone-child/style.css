@@ -164,4 +164,8 @@ header.entry-header figure img{
     padding: 0;
     width: 100%;
 }
+.projects-wrap .project figure img{
+    padding: 0;
+    margin: 0;
+}
 /* HOME PAGE END */

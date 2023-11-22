@@ -19,12 +19,6 @@
 	</header><!-- .entry-header -->
 
 	<div class="entry-content">
-
-
-
-		
-
-
 		<?php
 			$credentials = get_field('credentials');
 			if( $credentials ): ?>
