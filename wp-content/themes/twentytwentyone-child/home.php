@@ -65,7 +65,11 @@ get_header();
 
 <a href="/projects">View all Projects</a>
 
-
+<style type="text/css">
+					.element-item h2 {
+						background-color: <?php the_field('colour-one'); ?>;
+					}
+				</style>
 
 <?php
 get_footer();
