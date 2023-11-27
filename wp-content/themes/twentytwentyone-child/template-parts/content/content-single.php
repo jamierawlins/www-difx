@@ -43,9 +43,10 @@
 					<div class="project-detail">
 						<h3><a href="<?php echo esc_url( $credentials['imdb'] ); ?>">IMDB</a></h3>
 					</div>
+					<svg xmlns="http://www.w3.org/2000/svg" class="project-top-shape" width="339" height="327" viewBox="0 0 339 327" fill="none">
+                        <path d="M0 327C0 327 339 278.75 339 0H0V327Z" style="fill:white"/>
+                     </svg>  	
 						
-						
-					
 				</div>
 
 
