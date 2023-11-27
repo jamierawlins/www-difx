@@ -331,15 +331,25 @@ header.entry-header figure img{
     max-width: 100%!important;
     height: auto;
 }
+.back{
+    position:relative;
+}
 .back a{
-    background:black;
-    border-radius:200px;
-    -webkit-border-radius:200px;
-    -moz-border-radius:200px;
-    -ms-border-radius:200px;
-    -o-border-radius:200px;
-    width:80%;
-    height:80%;
+    background: black;
+    border-radius: 200px;
+    -webkit-border-radius: 200px;
+    -moz-border-radius: 200px;
+    -ms-border-radius: 200px;
+    -o-border-radius: 200px;
+    width: 400px;
+    height: 400px;
+    display: block;
+    margin: 0 auto;
+    color: white;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 /* PROJECT PAGE END */

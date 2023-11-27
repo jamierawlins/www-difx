@@ -62,23 +62,32 @@
 
 
 			<div class="right-project-details">
-		<?php
-		the_content();
+				<?php
+				the_content();
 
-		wp_link_pages(
-			array(
-				'before'   => '<nav class="page-links" aria-label="' . esc_attr__( 'Page', 'twentytwentyone' ) . '">',
-				'after'    => '</nav>',
-				/* translators: %: Page number. */
-				'pagelink' => esc_html__( 'Page %', 'twentytwentyone' ),
-			)
-		);
-		?>
-		</div>
+				wp_link_pages(
+					array(
+						'before'   => '<nav class="page-links" aria-label="' . esc_attr__( 'Page', 'twentytwentyone' ) . '">',
+						'after'    => '</nav>',
+						/* translators: %: Page number. */
+						'pagelink' => esc_html__( 'Page %', 'twentytwentyone' ),
+					)
+				);
+				?>
+				<svg xmlns="http://www.w3.org/2000/svg" class="bottom-shape" width="869" height="839" viewBox="0 0 869 839" fill="none">
+    <path d="M869 6.10352e-05C869 6.10352e-05 1.48979e-06 123.798 -6.10352e-05 839L869 839L869 6.10352e-05Z" fill="black"/>
+    </svg>
+			</div>
 	</div><!-- .entry-content -->
 
 	<div class="back">
+	<svg xmlns="http://www.w3.org/2000/svg" class="top-shape" width="339" height="327" viewBox="0 0 339 327" fill="none">
+<path d="M0 327C0 327 339 278.75 339 0H0V327Z" fill="black"/>
+</svg>
 		<a href="/projects">Back to all projects</a>
+		<svg xmlns="http://www.w3.org/2000/svg" class="bottom-shape" width="869" height="839" viewBox="0 0 869 839" fill="none">
+    <path d="M869 6.10352e-05C869 6.10352e-05 1.48979e-06 123.798 -6.10352e-05 839L869 839L869 6.10352e-05Z" fill="black"/>
+    </svg>
 	</div>
 
 	
