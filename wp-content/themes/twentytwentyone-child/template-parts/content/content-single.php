@@ -52,7 +52,7 @@
 
 
 				<style type="text/css">
-					.right-project-details {
+					.left-project-details {
 						background-color: <?php the_field('colour-one'); ?>;
 					}
 					
