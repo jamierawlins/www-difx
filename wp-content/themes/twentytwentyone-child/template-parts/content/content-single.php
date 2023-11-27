@@ -86,8 +86,11 @@
 	</div>
 
 	<style type="text/css">
-	.left-project-details, .back .bottom-shape, .back .top-shape {
+	.left-project-details {
 		background-color: <?php the_field('colour-one'); ?>;
+	}
+	.back .bottom-shape, .back .top-shape{
+		fill: <?php the_field('colour-one'); ?>;
 	}
 	
 </style>
