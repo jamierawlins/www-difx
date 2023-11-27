@@ -18,7 +18,9 @@ display:none;
     background:#2B98B0!important;
 }
 
-
+p{
+    line-height: initial;
+}
 /* HEADER */
 @media screen and (min-width: 768px) {
     .site-header{
@@ -329,6 +331,15 @@ header.entry-header figure img{
     max-width: 100%!important;
     height: auto;
 }
-
+.back a{
+    background:black;
+    border-radius:200px;
+    -webkit-border-radius:200px;
+    -moz-border-radius:200px;
+    -ms-border-radius:200px;
+    -o-border-radius:200px;
+    width:80%;
+    height:80%;
+}
 
 /* PROJECT PAGE END */
