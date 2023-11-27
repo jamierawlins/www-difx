@@ -185,6 +185,12 @@ header.entry-header figure img{
 }
 @media screen and (min-width: 768px) {
     .projects-wrap .project .description{
+        height:380px;
+        position:relative;
+    }
+}
+@media screen and (min-width: 1200px) {
+    .projects-wrap .project .description{
         height:600px;
         position:relative;
     }
