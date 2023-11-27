@@ -298,11 +298,11 @@ header.entry-header figure img{
     .single .entry-content{
         display:flex;
     }
-    .left-project-detail{
+    .left-project-details{
         width:33%;
         margin:0;
     }
-    .right-project-detail{
+    .right-project-details{
         width:67%;
         margin:0;
     }
