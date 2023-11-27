@@ -294,16 +294,27 @@ header.entry-header figure img{
 
 /* HOME PAGE END */
 
+/* PROJECT PAGE */
+.singular .has-post-thumbnail .entry-header{
+    padding-bottom:0;
+}
 @media screen and (min-width: 768px) {
     .single .entry-content{
         display:flex;
+        padding: 0;
+        margin: 0;
     }
     .left-project-details{
         width:33%;
-        margin:0;
+        margin: 0!important;
+        padding: 4em;
     }
     .right-project-details{
-        width:67%;
-        margin:0;
+        width: 67%;
+        margin: 0!important;
+        padding: 4em;
     }
 }
+
+
+/* PROJECT PAGE END */
