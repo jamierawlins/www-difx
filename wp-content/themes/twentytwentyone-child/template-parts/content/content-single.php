@@ -52,12 +52,7 @@
 
 
 
-				<style type="text/css">
-					.left-project-details {
-						background-color: <?php the_field('colour-one'); ?>;
-					}
-					
-				</style>
+				
 			<?php endif; ?>
 
 
@@ -90,6 +85,11 @@
     </svg>
 	</div>
 
+	<style type="text/css">
+	.left-project-details, .back .bottom-shape, .back .top-shape {
+		background-color: <?php the_field('colour-one'); ?>;
+	}
 	
+</style>
 
 </article><!-- #post-<?php the_ID(); ?> -->

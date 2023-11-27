@@ -304,6 +304,10 @@ header.entry-header figure img{
    
     position: relative;
 }
+.right-project-details{
+position: relative;
+    
+}
 @media screen and (min-width: 768px) {
     .single .entry-content{
         display:flex;
@@ -320,6 +324,7 @@ header.entry-header figure img{
         width: 67%;
         margin: 0!important;
         padding: 4em;
+        max-width: 67%!important;
     }
 }
 .left-project-details svg{
@@ -330,6 +335,9 @@ header.entry-header figure img{
     left: 0;
     max-width: 100%!important;
     height: auto;
+}
+.right-project-details svg{
+    width:262px;
 }
 .back{
     position:relative;
