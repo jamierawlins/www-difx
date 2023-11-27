@@ -25,7 +25,7 @@
 
 
 
-				<div class="right-project-details">
+				<div class="left-project-details">
 					<div class="project-detail">
 						<h3>Channel / Service</h3>
 						
@@ -52,14 +52,12 @@
 
 
 				<style type="text/css">
-					.right-project-details {
-						background-color: <?php the_field('colour-one'); ?>;
-					}
+					
 				</style>
 			<?php endif; ?>
 
 
-
+			<div class="right-project-details">
 		<?php
 		the_content();
 
@@ -72,7 +70,7 @@
 			)
 		);
 		?>
-		
+		</div>
 	</div><!-- .entry-content -->
 
 	<footer class="entry-footer default-max-width">

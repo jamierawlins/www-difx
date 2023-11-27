@@ -293,3 +293,17 @@ header.entry-header figure img{
 }
 
 /* HOME PAGE END */
+
+@media screen and (min-width: 768px) {
+    .single .entry-content{
+        display:flex;
+    }
+    .single .left-project-detail{
+        width:30%;
+        margin:0;
+    }
+    .single .right-project-detail{
+        width:70%;
+        margin:0;
+    }
+}
