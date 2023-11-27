@@ -298,6 +298,10 @@ header.entry-header figure img{
 .singular .has-post-thumbnail .entry-header{
     padding-bottom:0;
 }
+.left-project-details{
+   
+    position: relative;
+}
 @media screen and (min-width: 768px) {
     .single .entry-content{
         display:flex;
@@ -308,12 +312,21 @@ header.entry-header figure img{
         width:33%;
         margin: 0!important;
         padding: 4em;
+        position: relative;
     }
     .right-project-details{
         width: 67%;
         margin: 0!important;
         padding: 4em;
     }
+}
+.left-project-details svg{
+   
+    width: 100%!important;
+    position: absolute;
+    bottom: 0;
+    left:0;
+    max-width:100%!important;
 }
 
 
