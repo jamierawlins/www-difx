@@ -454,12 +454,22 @@ footer{
     
 }
 footer img{
-    max-width:400px;
+    max-width:250px;
 }
 footer p,
 footer a{
     color:white;
+    text-align: center;
 }
 footer .social ul{
     display:flex;
+    margin: 0;
+    padding: 0;
+}
+footer .social ul li{
+    list-style-type: none;
+    margin: 0 1em;
+}
+footer .social ul li svg{
+    width: 40px;
 }
