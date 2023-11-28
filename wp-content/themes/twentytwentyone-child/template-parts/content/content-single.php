@@ -44,8 +44,8 @@
 						<h3><a href="<?php echo esc_url( $credentials['imdb'] ); ?>">IMDB</a></h3>
 					</div>
 					<svg xmlns="http://www.w3.org/2000/svg" width="572" height="465" viewBox="0 0 572 465" fill="none">
-<path d="M572 465C572 465 487.599 1.337e-06 -2.03258e-05 2.26506e-05L0 465L572 465Z" fill="white"/>
-</svg> 	
+						<path d="M572 465C572 465 487.599 1.337e-06 -2.03258e-05 2.26506e-05L0 465L572 465Z" fill="white"/>
+					</svg> 	
 						
 				</div>
 
@@ -75,13 +75,18 @@
 			</div>
 	</div><!-- .entry-content -->
 	<!-- body image -->
-	<?php 
-		$image = get_field('body_image');
-		$size = 'full'; // (thumbnail, medium, large, full or custom size)
-		if( $image ) {
-			echo wp_get_attachment_image( $image, $size );
-		}
-		?>
+	<div class="image-container">
+		<?php 
+			$image = get_field('body_image');
+			$size = 'full'; // (thumbnail, medium, large, full or custom size)
+			if( $image ) {
+				echo wp_get_attachment_image( $image, $size );
+			}
+			?>
+		<svg xmlns="http://www.w3.org/2000/svg" width="572" height="465" viewBox="0 0 572 465" fill="none">
+			<path d="M572 465C572 465 487.599 1.337e-06 -2.03258e-05 2.26506e-05L0 465L572 465Z" fill="white"/>
+		</svg>
+	</div>
 	<!-- body image end -->
 	<!-- youtube -->
 	<div class="embed-container">
