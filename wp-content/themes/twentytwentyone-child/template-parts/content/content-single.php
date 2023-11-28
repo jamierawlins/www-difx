@@ -113,4 +113,4 @@
 	
 </style>
 
-</article><!-- #post-<?php the_ID(); ?> -->
+</article>
