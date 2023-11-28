@@ -74,6 +74,7 @@
     </svg>
 			</div>
 	</div><!-- .entry-content -->
+	<!-- body image -->
 	<?php 
 		$image = get_field('body_image');
 		$size = 'full'; // (thumbnail, medium, large, full or custom size)
@@ -81,6 +82,12 @@
 			echo wp_get_attachment_image( $image, $size );
 		}
 		?>
+	<!-- body image end -->
+	<!-- youtube -->
+	<div class="embed-container">
+		<?php the_field('youtube'); ?>
+	</div>
+	<!-- youtube end -->
 	<div class="back">
 	<svg xmlns="http://www.w3.org/2000/svg" class="top-shape" width="339" height="327" viewBox="0 0 339 327" fill="none">
 <path d="M0 327C0 327 339 278.75 339 0H0V327Z" fill="black"/>
