@@ -441,3 +441,13 @@ position: relative;
     fill:white;
 }
 /* PROJECT PAGE END */
+
+
+footer{
+    background: black;
+    margin: 0 auto;
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
