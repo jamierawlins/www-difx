@@ -403,6 +403,8 @@ position: relative;
     position:absolute;
     bottom:0px;
     right:0px;
+    max-width: 400px;
+    height: auto;
 }
 .image-container path{
     fill:white;
