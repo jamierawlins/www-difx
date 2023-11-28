@@ -451,7 +451,8 @@ footer{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    
+    padding:0 1em;
+    padding-top:2em!important;
 }
 footer img{
     max-width:250px;
@@ -460,6 +461,9 @@ footer p,
 footer a{
     color:white;
     text-align: center;
+}
+footer .social {
+    margin:0;
 }
 footer .social ul{
     display:flex;
