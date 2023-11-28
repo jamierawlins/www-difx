@@ -446,11 +446,12 @@ position: relative;
 footer{
     background: black;
     margin: 0 auto;
-    max-width: 100%;
+    max-width: 100%!important;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    
 }
 footer img{
     max-width:400px;
@@ -458,4 +459,7 @@ footer img{
 footer p,
 footer a{
     color:white;
+}
+footer .social ul{
+    display:flex;
 }
