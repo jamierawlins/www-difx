@@ -348,7 +348,14 @@ position: relative;
 }
 .back{
     position:relative;
-    min-height:750px;
+    min-height: 570px;
+}
+@media screen and (min-width: 768px) {
+    .back{
+        position:relative;
+        min-height:750px;
+
+    }
 }
 .back a{
     background: black;
@@ -357,8 +364,8 @@ position: relative;
     -moz-border-radius: 400px;
     -ms-border-radius: 400px;
     -o-border-radius: 400px;
-    width: 500px;
-    height: 500px;
+    width: 300px;
+    height: 300px;
     display: block;
     margin: 0 auto;
     color: white;
@@ -373,6 +380,12 @@ position: relative;
     margin: auto;
     top: 0;
     bottom: 0;
+}
+@media screen and (min-width: 768px) {
+    .back a{
+        width: 500px;
+        height: 500px;
+    }
 }
 .embed-container { 
     position: relative; 
