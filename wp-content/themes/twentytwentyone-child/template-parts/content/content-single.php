@@ -83,9 +83,9 @@
 				echo wp_get_attachment_image( $image, $size );
 			}
 			?>
-		<svg xmlns="http://www.w3.org/2000/svg" width="572" height="465" viewBox="0 0 572 465" fill="none">
-			<path d="M572 465C572 465 487.599 1.337e-06 -2.03258e-05 2.26506e-05L0 465L572 465Z" fill="white"/>
-		</svg>
+		<svg xmlns="http://www.w3.org/2000/svg" width="894" height="862" viewBox="0 0 894 862" fill="none">
+<path d="M895.5 6.10352e-05C895.5 6.10352e-05 0.500003 127.192 0.499939 862L895.5 862L895.5 6.10352e-05Z" fill="white"/>
+</svg>
 	</div>
 	<!-- body image end -->
 	<!-- youtube -->
