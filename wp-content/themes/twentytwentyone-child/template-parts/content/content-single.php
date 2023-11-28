@@ -74,7 +74,13 @@
     </svg>
 			</div>
 	</div><!-- .entry-content -->
-
+	<?php 
+		$image = get_field('body_image');
+		$size = 'full'; // (thumbnail, medium, large, full or custom size)
+		if( $image ) {
+			echo wp_get_attachment_image( $image, $size );
+		}
+		?>
 	<div class="back">
 	<svg xmlns="http://www.w3.org/2000/svg" class="top-shape" width="339" height="327" viewBox="0 0 339 327" fill="none">
 <path d="M0 327C0 327 339 278.75 339 0H0V327Z" fill="black"/>
