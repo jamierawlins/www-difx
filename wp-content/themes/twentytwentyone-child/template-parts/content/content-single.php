@@ -89,7 +89,7 @@
 	.left-project-details {
 		background-color: <?php the_field('colour-one'); ?>;
 	}
-	.back .bottom-shape path, .back .top-shape path{
+	.back .bottom-shape path, .back .top-shape path, .bottom-shape path{
 		fill: <?php the_field('colour-one'); ?>;
 	}
 	
