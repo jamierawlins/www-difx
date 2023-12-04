@@ -52,6 +52,5 @@ get_header();
         </ul>
     <?php endif; ?>
 </div>
-<h1>ABOUT</h1>
 <?php
 get_footer();
