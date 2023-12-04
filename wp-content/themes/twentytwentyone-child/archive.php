@@ -30,13 +30,13 @@ $description = get_the_archive_description();
 	<?php endif; ?>
 
 <div class="projects-wrap">
-<?php while ( have_posts() ) : ?>
-	<article class="project">
-	<?php the_post(); ?>
-	<?php the_title( '<h1 class="entry-title default-max-width">', '</h1>' ); ?>
-	<?php twenty_twenty_one_post_thumbnail(); ?>
-</article>
-<?php endwhile; ?>
+	<?php while ( have_posts() ) : ?>
+		<article class="project">
+			<?php the_post(); ?>
+			<?php the_title( '<h2 class="entry-title default-max-width">', '</h2>' ); ?>
+			<?php twenty_twenty_one_post_thumbnail(); ?>
+		</article>
+	<?php endwhile; ?>
 </div>
 
 <?php twenty_twenty_one_the_posts_navigation(); ?>
