@@ -29,7 +29,7 @@ $description = get_the_archive_description();
 		<div class="archive-description"><?php echo wp_kses_post( wpautop( $description ) ); ?></div>
 	<?php endif; ?>
 <?php while ( have_posts() ) : ?>
-	<article>
+	<article class="project">
 	<?php the_post(); ?>
 	<?php the_title( '<h1 class="entry-title default-max-width">', '</h1>' ); ?>
 	<?php twenty_twenty_one_post_thumbnail(); ?>
