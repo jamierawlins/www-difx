@@ -80,7 +80,8 @@ header.entry-header figure img{
 .page-template-about .wp-block-columns{
     margin:0;
 }
-.page-template-about .wp-block-columns p{
+.page-template-about .wp-block-columns p,
+.awards p{
     margin: 0 1em 1em 1em;
 }
 
