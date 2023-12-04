@@ -283,6 +283,7 @@ header.entry-header figure img{
 
 .projects-wrap .project:hover figure{
     height: 400px;
+    max-width: 100%;
     transition: all .5s ease;
     -webkit-transition: all .5s ease;
     -moz-transition: all .5s ease;
