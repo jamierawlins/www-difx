@@ -247,10 +247,11 @@ header.entry-header figure img{
 .projects-wrap .project .description svg{
     position:absolute;
     top:0px;
-    left:0px;    
+    right:0px;    
     width:50%;
     height:auto;
     max-width: 339px;
+    transform: rotate(90deg);
 }
 .projects-wrap .project h2{
     z-index: 10;
