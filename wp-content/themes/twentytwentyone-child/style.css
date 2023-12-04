@@ -77,6 +77,13 @@ header.entry-header figure img{
 
 /* ABOUT PAGE */
 
+.page-template-about .wp-block-columns{
+    margin:0;
+}
+.page-template-about .wp-block-columns p{
+    margin: 0 1em 1em 1em;
+}
+
 /* AWARDS REPEATER */
 .awards{
     display: flex;
@@ -98,20 +105,38 @@ header.entry-header figure img{
     justify-content: center;
     background: #E4E4E4;
     padding: 2em;
-    width: 32%;
     text-align: center;
+    margin: 1em;
+    width:100%;
 }
+@media screen and (min-width: 768px) {
+    .award-repeater li{
+        margin: 0em;
+        width: 32%;
+    }
+}
+
 /* AWARDS REPEATER END*/
 
 /* CLIENTS REPEATER */
 .clients{
     background: black;
     color: white;
+
+   
+
+
+    margin: 2em 0 0 0;
+    padding: 0;
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    padding: 4em;
+}
+@media screen and (min-width: 768px) {
+    .clients{
+        padding: 4em;
+    }
 }
 .clients ul{
     margin: 0;
