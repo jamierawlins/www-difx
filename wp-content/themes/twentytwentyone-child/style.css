@@ -485,7 +485,7 @@ position: relative;
 
 footer{
     background: black;
-    margin: 0 auto;
+    margin: 0 auto!important;
     max-width: 100%!important;
     display: flex;
     justify-content: center;
