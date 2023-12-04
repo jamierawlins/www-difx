@@ -23,6 +23,7 @@ get_header();
 
 <div class="awards">
     <h2>Awards</h2>
+    <?php the_field('award-intro'); ?>
     <?php if( have_rows('award-repeater') ): ?>
         <ul class="award-repeater">
         <?php while( have_rows('award-repeater') ): the_row(); ?>
