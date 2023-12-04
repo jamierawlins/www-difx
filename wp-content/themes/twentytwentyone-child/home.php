@@ -75,7 +75,7 @@ get_header();
 ?>
 </div>
 
-<a href="/projects">View all Projects</a>
+<a class="back" href="/projects">View all Projects</a>
 
 <?php
 get_footer();
