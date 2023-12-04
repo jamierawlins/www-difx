@@ -275,6 +275,9 @@ header.entry-header figure img{
         width: 50%;
         top:0px;
     }
+    .projects-wrap .project:nth-child(2) figure{
+        right:0px;
+    }
 }
 
 .projects-wrap .project:hover figure{
