@@ -74,8 +74,8 @@ get_header();
     wp_reset_postdata();
 ?>
 </div>
-
-<a class="back" href="/projects">View all Projects</a>
-
+<div class="back">
+    <a href="/projects">View all Projects</a>
+</div
 <?php
 get_footer();
