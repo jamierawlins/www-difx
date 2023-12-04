@@ -84,12 +84,20 @@ header.entry-header figure img{
 .awards p{
     margin: 0 1em 1em 1em;
 }
+@media screen and (min-width: 768px) {
+    .page-template-about .wp-block-column{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+}
 
 /* AWARDS REPEATER */
 .awards{
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-bottom:0;
 }
 .award-repeater{
     display: flex;
@@ -98,6 +106,11 @@ header.entry-header figure img{
     justify-content: space-between;
     padding: 0;
     margin: 0;
+}
+@media screen and (min-width: 768px) {
+    .award-repeater{
+        margin: 0 1em;
+    }
 }
 .award-repeater li{
     display: flex;
@@ -112,7 +125,7 @@ header.entry-header figure img{
 }
 @media screen and (min-width: 768px) {
     .award-repeater li{
-        margin: 0em;
+        margin: 0em 0 1em 0;
         width: 32%;
     }
 }
@@ -124,7 +137,7 @@ header.entry-header figure img{
     background: black;
     color: white;
 
-    margin: 2em 0 0 0;
+    margin: 0 0 0 0;
     padding: 2em 0 1em 0;
     display: flex;
     flex-wrap: wrap;
