@@ -32,9 +32,15 @@ $description = get_the_archive_description();
 <div class="projects-wrap">
 	<?php while ( have_posts() ) : ?>
 		<article class="project">
-			<?php the_post(); ?>
-			<?php the_title( '<h2 class="entry-title default-max-width">', '</h2>' ); ?>
-			<?php twenty_twenty_one_post_thumbnail(); ?>
+		<a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>">
+                <div class="description" style="background-color:<?php the_field('colour-one'); ?>">
+                    <h2><?php the_title(); ?></h2>
+                    <svg xmlns="http://www.w3.org/2000/svg" class="project-top-shape" width="339" height="327" viewBox="0 0 339 327" fill="none">
+                        <path d="M0 327C0 327 339 278.75 339 0H0V327Z" style="fill:<?php the_field('colour-two'); ?>"/>
+                     </svg>  
+                 </div>
+                 <?php twenty_twenty_one_post_thumbnail(); ?>
+            </a>
 		</article>
 	<?php endwhile; ?>
 </div>
