@@ -28,6 +28,8 @@ $description = get_the_archive_description();
 <?php if ( $description ) : ?>
 		<div class="archive-description"><?php echo wp_kses_post( wpautop( $description ) ); ?></div>
 	<?php endif; ?>
+
+<div class="projects-wrap">
 <?php while ( have_posts() ) : ?>
 	<article class="project">
 	<?php the_post(); ?>
@@ -35,6 +37,7 @@ $description = get_the_archive_description();
 	<?php twenty_twenty_one_post_thumbnail(); ?>
 </article>
 <?php endwhile; ?>
+</div>
 
 <?php twenty_twenty_one_the_posts_navigation(); ?>
 
