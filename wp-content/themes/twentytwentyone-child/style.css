@@ -348,6 +348,16 @@ header.entry-header figure img{
 
 /* HOME PAGE END */
 
+/* PROJECTS PAGE */
+
+.archive-description{
+    max-width: 700px;
+    margin: 2em auto;
+    text-align: center;
+}
+
+/* PROJECTS PAGE END */
+
 /* PROJECT PAGE */
 .singular .has-post-thumbnail .entry-header{
     padding-bottom:0;
