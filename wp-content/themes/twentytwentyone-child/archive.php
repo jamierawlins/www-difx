@@ -32,6 +32,7 @@ $description = get_the_archive_description();
 <div class="projects-wrap">
 	<?php while ( have_posts() ) : ?>
 		<article class="project">
+		<a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>">
 			<?php the_post(); ?>
 			<div class="description" style="background-color:<?php the_field('colour-one'); ?>">
                     <h2><?php the_title(); ?></h2>
@@ -41,6 +42,7 @@ $description = get_the_archive_description();
                  </div>
 			
 			<?php twenty_twenty_one_post_thumbnail(); ?>
+	</a>
 		</article>
 	<?php endwhile; ?>
 </div>
