@@ -46,7 +46,18 @@ $description = get_the_archive_description();
 		</article>
 	<?php endwhile; ?>
 </div>
-
+<style type="text/css">
+	.left-project-details {
+		background-color: <?php the_field('colour-one'); ?>;
+	}
+	.description h2{
+		background-color: <?php the_field('text-color'); ?>;
+	}
+	.back .bottom-shape path, .back .top-shape path, .bottom-shape path{
+		fill: <?php the_field('colour-one'); ?>;
+	}
+	
+</style>
 <?php twenty_twenty_one_the_posts_navigation(); ?>
 
 <?php else : ?>
