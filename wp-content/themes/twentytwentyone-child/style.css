@@ -472,7 +472,9 @@ header.entry-header figure img{
     .left-project-details svg{
         display:none;
     }
-
+    .single .entry-content{
+        margin-top: 0;
+    }
 
 }
 @media screen and (min-width: 768px) {
