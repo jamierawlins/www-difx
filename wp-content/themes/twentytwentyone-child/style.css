@@ -546,7 +546,7 @@ header.entry-header figure img{
 }
 @media screen and (min-width: 1024px) {
     .project-detail h3{
-        line-height: 2rem!important;
+        line-height: 1rem!important;
         font-size: 2.8rem;
     }
 }
@@ -606,6 +606,19 @@ header.entry-header figure img{
     .right-project-details{
         width: 68%;
         margin: 0!important;
+        padding: 4em 11em 4em 4em;
+        max-width: 68%!important;
+    }
+    .right-project-details h2{
+        font-size: 3em;
+        line-height: 1em!important;
+        margin: 0 0 2rem 0;
+    }
+}
+@media screen and (min-width: 1200px) {
+    .right-project-details{
+        width: 68%;
+        margin: 0!important;
         padding: 4em 18em 4em 4em;
         max-width: 68%!important;
     }
@@ -614,7 +627,6 @@ header.entry-header figure img{
         line-height: 1.2em!important;
         margin: 0 0 2rem 0;
     }
-
 }
 .left-project-details svg{
     max-width: 200px!important;
