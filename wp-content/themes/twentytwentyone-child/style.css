@@ -35,11 +35,11 @@ p{
 }
 a{
     opacity:1;
-    transform:all .4s ease;
-    -webkit-transform:all .4s ease;
-    -moz-transform:all .4s ease;
-    -ms-transform:all .4s ease;
-    -o-transform:all .4s ease;
+    transition:all .4s ease;
+    -webkit-transition:all .4s ease;
+    -moz-transition:all .4s ease;
+    -ms-transition:all .4s ease;
+    -o-transition:all .4s ease;
 }
 a:hover{
     opacity:.4;
