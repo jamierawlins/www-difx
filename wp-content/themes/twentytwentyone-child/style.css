@@ -81,7 +81,7 @@ nav li a{
 }
 @media screen and (max-width: 767px) {
 .site-logo img{
-    width:200px;
+    width:100px;
     height:auto;
 }
 }
