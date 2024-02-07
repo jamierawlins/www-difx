@@ -389,6 +389,10 @@ header.entry-header figure img{
 .left-project-details{
     padding: 2em 1em 11em 2em;
     position: relative;
+    color: white;
+}
+.left-project-details a{
+    color: white;
 }
 .right-project-details{
 position: relative;
