@@ -27,7 +27,7 @@
 
 				<div class="left-project-details" style="color:<?php the_field('text-color'); ?>">
 					<div class="project-detail">
-						<h3>Channel / Servic e</h3>
+						<h3>Channel / Service</h3>
 						
 						<p><?php echo $credentials['channel-service']; ?></p>
 					</div>
