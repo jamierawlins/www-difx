@@ -14,7 +14,7 @@
 get_header();
 ?>
 <div class="hero">
-<h1 class="page-title">DIFX</h1>
+
 	<img src="http://digitalimagingfx.com/wp-content/uploads/2023/11/project-hero-1.jpg" />
     
 </div>
