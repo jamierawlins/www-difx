@@ -33,6 +33,17 @@ h1,h2,h3,h4,h5,h6{
 p{
     line-height: initial;
 }
+a{
+    opacity:1;
+    transform:all .4s ease;
+    -webkit-transform:all .4s ease;
+    -moz-transform:all .4s ease;
+    -ms-transform:all .4s ease;
+    -o-transform:all .4s ease;
+}
+a{
+    opacity:.4;
+}
 /* HEADER */
 @media screen and (min-width: 768px) {
     .site-header{
@@ -393,6 +404,7 @@ header.entry-header figure img{
 }
 .left-project-details a{
     color: white;
+
 }
 .right-project-details{
 position: relative;
