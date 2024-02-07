@@ -453,6 +453,12 @@ header.entry-header figure img{
 }
 .project-detail h3{
     line-height: 1rem;
+    font-size: 2.8rem;
+}
+.right-project-details h2{
+    font-size: 3em;
+    line-height: 3em;
+    margin: 0 0 2rem 0;
 }
 @media screen and (min-width: 768px) {
     .single .entry-content{
