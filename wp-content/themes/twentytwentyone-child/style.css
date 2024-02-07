@@ -546,8 +546,11 @@ header.entry-header figure img{
 }
 @media screen and (min-width: 1024px) {
     .project-detail h3{
-        line-height: 1rem!important;
+        line-height: 2.6rem!important;
         font-size: 2.8rem;
+    }
+    .project-detail{
+        margin-bottom: 3rem;
     }
 }
 .right-project-details h2{
