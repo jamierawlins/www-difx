@@ -47,7 +47,7 @@ get_header();
             <li>
                 
                 <p><?php the_sub_field('client'); ?></p>
-            </li>
+            </li>/ 
         <?php endwhile; ?>
         </ul>
     <?php endif; ?>
