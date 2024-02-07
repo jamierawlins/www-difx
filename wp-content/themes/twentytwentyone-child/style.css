@@ -129,12 +129,24 @@ header.entry-header{
     width: 100%;
     max-width: 100%;
 }
+
 .hero h1,
 header.entry-header h1{
     position: absolute;
-    bottom: 0.5em;
-    right: 0.5em;
+    bottom: 0.2em;
+    right: 0.2em;
     color:white!important;
+    margin:0;
+}
+@media screen and (min-width: 768px) {
+    .hero h1,
+    header.entry-header h1{
+        position: absolute;
+        bottom: 0.5em;
+        right: 0.5em;
+        color:white!important;
+        margin:0;
+    }
 }
 .hero figure,
 header.entry-header figure{
