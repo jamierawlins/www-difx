@@ -409,7 +409,7 @@ position: relative;
     .right-project-details{
         width: 68%;
         margin: 0!important;
-        padding: 4em 11em 4em 4em;
+        padding: 4em 5em 12em 4em;
         max-width: 68%!important;
     }
     .right-project-details h2{
@@ -417,6 +417,15 @@ position: relative;
         line-height: 1em;
         margin: 0 0 2rem 0;
     }
+}
+@media screen and (min-width: 1024px) {
+    .right-project-details{
+        width: 68%;
+        margin: 0!important;
+        padding: 4em 11em 4em 4em;
+        max-width: 68%!important;
+    }
+
 }
 .left-project-details svg{
     max-width: 200px!important;
