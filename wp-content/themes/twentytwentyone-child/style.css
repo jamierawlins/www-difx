@@ -67,8 +67,8 @@ a:hover{
         position: absolute;
         width: 100%;
         z-index: 10;
-        top: 1em;
-        padding: 2em;
+        top: 0em;
+        padding: 1em 2em;
         max-width: 100%;
     }
     .primary-navigation a{
@@ -79,11 +79,23 @@ nav li a{
     font-family: 'Bebas Neue', sans-serif!important;
     text-transform:uppercase;
 }
-@media screen and (max-width: 767px) {
-.site-logo img{
-    width:100px;
-    height:auto;
+@media screen and (min-width: 768px) {
+    nav li a{
+        font-size: 1.6rem!important;
+    }
+
 }
+@media screen and (min-width: 1024px) {
+    nav li a{
+        font-size: 1.9rem!important;
+    }
+
+}
+@media screen and (max-width: 767px) {
+    .site-logo img{
+        width:100px;
+        height:auto;
+    }
 }
 /* HEADER END */
 
