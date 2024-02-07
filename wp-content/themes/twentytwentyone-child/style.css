@@ -49,6 +49,20 @@ a:hover{
 }
 /* HEADER */
 
+.site-header{
+    position: absolute;
+    width: 100%;
+    z-index: 10;
+    top: 0em;
+    padding: 0em 1em 0em 1em;
+    max-width: 100%;
+}
+.primary-navigation a{
+    color:white!important;
+}
+
+
+@media screen and (min-width: 768px) {
     .site-header{
         position: absolute;
         width: 100%;
@@ -60,7 +74,11 @@ a:hover{
     .primary-navigation a{
         color:white!important;
     }
-
+}
+nav li a{
+    font-family: 'Bebas Neue', sans-serif;
+    text-transform:uppercase;
+}
 /* HEADER END */
 
 .hero img{
