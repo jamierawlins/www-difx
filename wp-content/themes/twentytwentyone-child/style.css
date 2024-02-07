@@ -48,7 +48,7 @@ a:hover{
     opacity:.4;
 }
 /* HEADER */
-@media screen and (min-width: 768px) {
+
     .site-header{
         position: absolute;
         width: 100%;
@@ -60,7 +60,7 @@ a:hover{
     .primary-navigation a{
         color:white!important;
     }
-}
+
 /* HEADER END */
 
 .hero img{
@@ -412,11 +412,15 @@ header.entry-header figure img{
     transform: rotate(270deg);
     position:absolute;
     top:auto;
-    left:0px;  
-    bottom:0px;  
+    left:0px;
+    bottom:0px;
     width:30%;
     height:auto;
     max-width: 339px;
+    -webkit-transform: rotate(270deg);
+    -moz-transform: rotate(270deg);
+    -ms-transform: rotate(270deg);
+    -o-transform: rotate(270deg);
 }
 
 /* HOME PAGE END */
