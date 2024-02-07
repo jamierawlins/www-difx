@@ -107,8 +107,11 @@ header.entry-header figure img{
         justify-content: center;
     }
     .page-template-about .wp-block-columns h2{
-        margin: 0 1em 1em .5em;
+        margin: 0 1em 1em 1em;
         text-align: left;
+    }   
+    .page-template-about .wp-block-columns p{
+        max-width: 70%;
     }
 }
 
