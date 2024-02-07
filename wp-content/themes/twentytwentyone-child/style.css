@@ -207,9 +207,10 @@ header.entry-header figure img{
     margin: 4em 1em;
 }
 @media screen and (min-width: 768px) {
-.page-template-home .wp-block-group {
-    width:48%;
-}
+    .page-template-home .wp-block-group {
+        width:38%;
+        margin: 4em 1em 4em 2em;
+    }
 }
 .home-intro-wrapper{
     margin: 0;
@@ -230,6 +231,7 @@ header.entry-header figure img{
     right: 0;
     max-width:869px;
 }
+
 .back .bottom-shape{
     max-width:400px;
 }
@@ -240,6 +242,7 @@ header.entry-header figure img{
 @media screen and (min-width: 768px) {
     .bottom-shape{
         width: 50%;
+        max-width: 50%;
     }
 }
 .projects-wrap{
