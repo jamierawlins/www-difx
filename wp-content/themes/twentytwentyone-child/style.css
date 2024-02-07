@@ -407,10 +407,15 @@ position: relative;
         position: relative;
     }
     .right-project-details{
-        width: 67%;
+        width: 68%;
         margin: 0!important;
-        padding: 4em;
-        max-width: 67%!important;
+        padding: 4em 11em 4em 4em;
+        max-width: 68%!important;
+    }
+    .right-project-details h2{
+        font-size: 4em;
+        line-height: 1em;
+        margin: 0 0 2rem 0;
     }
 }
 .left-project-details svg{
@@ -425,7 +430,7 @@ position: relative;
 .left-project-details svg{
    
     
-    max-width: 100%!important;
+    max-width: 80%!important;
     
 }
 }
