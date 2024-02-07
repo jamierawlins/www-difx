@@ -97,6 +97,18 @@ nav li a{
         height:auto;
     }
 }
+@media screen and (min-width: 768px) {
+    .site-logo img{
+        width:130px;
+        height:auto;
+    }
+}
+@media screen and (min-width: 1024px) {
+    .site-logo img{
+        width:200px;
+        height:auto;
+    }
+}
 /* HEADER END */
 
 .hero img{
