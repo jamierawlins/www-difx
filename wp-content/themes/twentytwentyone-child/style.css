@@ -187,6 +187,9 @@ header.entry-header figure img{
     .page-template-about .wp-block-columns p {
         margin: 0 1em 1em 0em;
     }
+    .awards p {
+        margin: 0 6em 1em 6em;
+    }
 }
 @media screen and (min-width:1024px) {
     .page-template-about .wp-block-column{
