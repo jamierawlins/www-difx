@@ -29,16 +29,16 @@
 					<div class="project-detail">
 						<h3>Channel / Service</h3>
 						
-						<?php echo $credentials['channel-service']; ?>
+						<p><?php echo $credentials['channel-service']; ?></p>
 					</div>
 					<div class="project-detail">
 						<h3>Client</h3>		
 						
-						<?php echo $credentials['client-name']; ?>
+						<p><?php echo $credentials['client-name']; ?></p>
 					</div>
 					<div class="project-detail">
 						<h3>Date</h3>
-						<?php echo esc_html( $credentials['date'] ); ?>
+						<p><?php echo esc_html( $credentials['date'] ); ?></p>
 					</div>
 					<div class="project-detail">
 						<h3><a href="<?php echo esc_url( $credentials['imdb'] ); ?>">IMDB</a></h3>
