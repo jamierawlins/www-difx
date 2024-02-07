@@ -35,7 +35,7 @@ $description = get_the_archive_description();
 		
 			<?php the_post(); ?>
 			<div class="description" style="background-color:<?php the_field('colour-one'); ?>">
-				<h2><?php the_title(); ?></h2>
+				<h2 style="color: <?php the_field('text-color'); ?>"><?php the_title(); ?></h2>
 				<svg xmlns="http://www.w3.org/2000/svg" class="project-top-shape" width="339" height="327" viewBox="0 0 339 327" fill="none">
 					<path d="M0 327C0 327 339 278.75 339 0H0V327Z" style="fill:<?php the_field('colour-two'); ?>"/>
 					</svg>  
@@ -50,9 +50,7 @@ $description = get_the_archive_description();
 	.left-project-details {
 		background-color: <?php the_field('colour-one'); ?>;
 	}
-	.description h2{
-		color: <?php the_field('text-color'); ?>;
-	}
+	
 	.back .bottom-shape path, .back .top-shape path, .bottom-shape path{
 		fill: <?php the_field('colour-one'); ?>;
 	}
