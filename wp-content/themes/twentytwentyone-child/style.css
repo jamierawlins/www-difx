@@ -10,6 +10,8 @@ License: GNU General Public License v2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 */
 
+
+
 .home #masthead{
 display:none;
 
@@ -17,6 +19,14 @@ display:none;
 .home{
     background:#2B98B0!important;
 }
+
+body{
+    max-width: 1900px;
+    margin: 0 auto;
+    box-shadow: 0px 0px 50px #00000042;
+    position: relative;
+}
+
 h1,h2,h3,h4,h5,h6{
     font-family: 'Bebas Neue', sans-serif;
 }
