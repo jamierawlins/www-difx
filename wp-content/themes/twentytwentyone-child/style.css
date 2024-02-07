@@ -96,11 +96,19 @@ header.entry-header figure img{
 .awards p{
     margin: 0 1em 1em 1em;
 }
+.awards h2{
+    margin: 0 1em 1em .5em;
+    text-align: center;
+}
 @media screen and (min-width: 768px) {
     .page-template-about .wp-block-column{
         display: flex;
         flex-direction: column;
         justify-content: center;
+    }
+    .awards h2{
+        margin: 0 1em 1em .5em;
+        text-align: left;
     }
 }
 
