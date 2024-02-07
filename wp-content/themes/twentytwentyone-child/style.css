@@ -96,7 +96,7 @@ header.entry-header figure img{
 .awards p{
     margin: 0 1em 1em 1em;
 }
-.awards h2{
+.page-template-about .wp-block-columns h2{
     margin: 0 1em 1em .5em;
     text-align: center;
 }
@@ -106,7 +106,7 @@ header.entry-header figure img{
         flex-direction: column;
         justify-content: center;
     }
-    .awards h2{
+    .page-template-about .wp-block-columns h2{
         margin: 0 1em 1em .5em;
         text-align: left;
     }
