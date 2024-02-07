@@ -460,6 +460,21 @@ header.entry-header figure img{
     line-height: 3em;
     margin: 0 0 2rem 0;
 }
+@media screen and (max-width: 767px) {
+    .left-project-details {
+        padding: 2em 1em 1em 2em;
+        position: relative;
+        color: white;
+        margin: 0;
+        width: 100%;
+        max-width: 100%!important;
+    }
+    .left-project-details svg{
+        display:none;
+    }
+
+
+}
 @media screen and (min-width: 768px) {
     .single .entry-content{
         display:flex;
