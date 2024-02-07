@@ -41,7 +41,7 @@ a{
     -ms-transform:all .4s ease;
     -o-transform:all .4s ease;
 }
-a{
+a:hover{
     opacity:.4;
 }
 /* HEADER */
