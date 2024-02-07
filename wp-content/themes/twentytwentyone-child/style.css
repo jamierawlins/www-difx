@@ -178,6 +178,23 @@ header.entry-header figure img{
         justify-content: center;
     }
     .page-template-about .wp-block-columns h2{
+        margin: 0 1em 1em 0;
+        text-align: left;
+    }   
+    .page-template-about .wp-block-columns p{
+        max-width: 90%;
+    }
+    .page-template-about .wp-block-columns p {
+        margin: 0 1em 1em 0em;
+    }
+}
+@media screen and (min-width:1024px) {
+    .page-template-about .wp-block-column{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .page-template-about .wp-block-columns h2{
         margin: 0 1em 1em .4em;
         text-align: left;
     }   
@@ -185,7 +202,6 @@ header.entry-header figure img{
         max-width: 70%;
     }
 }
-
 /* AWARDS REPEATER */
 .awards{
     display: flex;
