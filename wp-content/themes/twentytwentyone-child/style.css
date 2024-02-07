@@ -407,8 +407,11 @@ header.entry-header figure img{
 
 }
 .right-project-details{
-position: relative;
+    position: relative;
     
+}
+.project-detail{
+    margin-bottom: 1rem;
 }
 @media screen and (min-width: 768px) {
     .single .entry-content{
