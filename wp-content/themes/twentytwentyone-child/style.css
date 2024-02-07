@@ -93,20 +93,20 @@ nav li a{
 }
 @media screen and (max-width: 767px) {
     .site-logo img{
-        width:100px;
-        height:auto;
+        width:100px!important;
+        height:auto!important;
     }
 }
 @media screen and (min-width: 768px) {
     .site-logo img{
-        width:130px;
-        height:auto;
+        width:130px!important;
+        height:auto!important;
     }
 }
 @media screen and (min-width: 1024px) {
     .site-logo img{
-        width:200px;
-        height:auto;
+        width:200px!important;
+        height:auto!important;
     }
 }
 /* HEADER END */
