@@ -210,7 +210,7 @@ header.entry-header figure img{
 @media screen and (min-width: 768px) {
     .page-template-home .wp-block-group {
         width:38%;
-        margin: 4em 1em 4em 2em;
+        margin: 1em 1em 4em 2em;
     }
 }
 .home-intro-wrapper{
@@ -220,6 +220,7 @@ header.entry-header figure img{
 }
 .home-intro-wrapper h2{
     margin:0 0 1em 0;
+    font-size: 6rem;
 }
 .top-shape{
     width:50%;
