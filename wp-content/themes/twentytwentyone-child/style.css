@@ -34,7 +34,14 @@ h1,h2,h3,h4,h5,h6{
 p{
     line-height: initial;
     font-family: 'Open Sans', serif;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
+}
+@media screen and (min-width: 1024px) {
+    p{
+        line-height: initial;
+        font-family: 'Open Sans', serif;
+        font-size: 1.5rem;
+    }
 }
 a{
     opacity:1;
@@ -137,16 +144,6 @@ header.entry-header h1{
     right: 0.2em;
     color:white!important;
     margin:0;
-}
-@media screen and (min-width: 768px) {
-    .hero h1,
-    header.entry-header h1{
-        position: absolute;
-        bottom: 0.5em;
-        right: 0.5em;
-        color:white!important;
-        margin:0;
-    }
 }
 .hero figure,
 header.entry-header figure{
@@ -547,7 +544,7 @@ header.entry-header figure img{
     .left-project-details{
         width:33%;
         margin: 0!important;
-        padding: 4em 4em 22em 4em;
+        padding: 4em 1em 22em 1em;
         position: relative;
     }
     .right-project-details{
@@ -557,17 +554,28 @@ header.entry-header figure img{
         max-width: 68%!important;
     }
     .right-project-details h2{
-        font-size: 4em;
-        line-height: 1em;
+        font-size: 3em;
+        line-height: 1em!important;
         margin: 0 0 2rem 0;
     }
 }
 @media screen and (min-width: 1024px) {
+    .left-project-details{
+        width:33%;
+        margin: 0!important;
+        padding: 4em 4em 22em 4em;
+        position: relative;
+    }
     .right-project-details{
         width: 68%;
         margin: 0!important;
         padding: 4em 18em 4em 4em;
         max-width: 68%!important;
+    }
+    .right-project-details h2{
+        font-size: 4em;
+        line-height: 1.2em!important;
+        margin: 0 0 2rem 0;
     }
 
 }
@@ -580,12 +588,14 @@ header.entry-header figure img{
     left: 0;
 }
 @media screen and (min-width: 768px) {
-.left-project-details svg{
-   
-    
-    max-width: 80%!important;
-    
+    .left-project-details svg{
+        max-width: 100%!important;
+    }
 }
+@media screen and (min-width: 1024px) {
+    .left-project-details svg{
+        max-width: 80%!important;
+    }
 }
 .right-project-details svg{
     display:none;
