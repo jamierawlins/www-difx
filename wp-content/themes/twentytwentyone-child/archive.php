@@ -51,7 +51,7 @@ $description = get_the_archive_description();
 		background-color: <?php the_field('colour-one'); ?>;
 	}
 	.description h2{
-		background-color: <?php the_field('text-color'); ?>;
+		color: <?php the_field('text-color'); ?>;
 	}
 	.back .bottom-shape path, .back .top-shape path, .bottom-shape path{
 		fill: <?php the_field('colour-one'); ?>;
