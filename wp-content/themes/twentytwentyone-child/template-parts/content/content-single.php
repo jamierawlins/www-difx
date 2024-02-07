@@ -25,7 +25,7 @@
 
 
 
-				<div class="left-project-details">
+				<div class="left-project-details" style="color:<?php the_field('text-color'); ?>">
 					<div class="project-detail">
 						<h3>Channel / Service</h3>
 						
@@ -41,7 +41,7 @@
 						<p><?php echo esc_html( $credentials['date'] ); ?></p>
 					</div>
 					<div class="project-detail">
-						<h3><a href="<?php echo esc_url( $credentials['imdb'] ); ?>">IMDB</a></h3>
+						<h3><a href="<?php echo esc_url( $credentials['imdb'] ); ?>" style="color:<?php the_field('text-color'); ?>">IMDB</a></h3>
 					</div>
 					<svg xmlns="http://www.w3.org/2000/svg" width="572" height="465" viewBox="0 0 572 465" fill="none">
 						<path d="M572 465C572 465 487.599 1.337e-06 -2.03258e-05 2.26506e-05L0 465L572 465Z" fill="white"/>
