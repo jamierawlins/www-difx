@@ -218,7 +218,9 @@ header.entry-header figure img{
     position:relative;
     padding: 0 0 3em 0;
 }
-
+.home-intro-wrapper h2{
+    margin:0 0 1em 0;
+}
 .top-shape{
     width:50%;
     height:auto;
