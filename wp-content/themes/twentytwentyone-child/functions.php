@@ -6,3 +6,8 @@ function twentytwentyone_styles() {
 	array( 'twenty-twenty-one-style' ), wp_get_theme()->get('Version') );
 }
 add_action( 'wp_enqueue_scripts', 'twentytwentyone_styles');
+
+
+function add_google_fonts() {
+	wp_enqueue_style( ' add_google_fonts ', ' https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap', false );}
+	add_action( 'wp_enqueue_scripts', 'add_google_fonts' );
