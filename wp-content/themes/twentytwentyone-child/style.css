@@ -219,8 +219,9 @@ header.entry-header figure img{
     padding: 0 0 3em 0;
 }
 .home-intro-wrapper h2{
-    margin:0 0 1em 0;
+    margin: 0 0 0.5em 0;
     font-size: 6rem;
+    line-height: 6rem!important;
 }
 .top-shape{
     width:50%;
