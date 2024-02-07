@@ -76,8 +76,14 @@ a:hover{
     }
 }
 nav li a{
-    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'Bebas Neue', sans-serif!important;
     text-transform:uppercase;
+}
+@media screen and (max-width: 767px) {
+.site-logo img{
+    width:200px;
+    height:auto;
+}
 }
 /* HEADER END */
 
