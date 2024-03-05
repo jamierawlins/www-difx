@@ -65,9 +65,46 @@ a:hover{
     max-width: 100%;
 }
 .primary-navigation a{
-    color:white!important;
+    color:black!important;
+    font-size:2em;
 }
-
+@media screen and (min-width: 768px) {
+    .primary-navigation a{
+        color:white!important;
+    }
+}
+@media screen and (max-width: 481px) {
+    .primary-navigation > div > .menu-wrapper {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        list-style: none;
+        margin: 0;
+        max-width: none;
+        padding-left: 0;
+        position: relative;
+        align-items: center;
+        width: 100%;
+        text-align: center;
+        font-size: 2em;
+        height: 100%;
+    }
+    .post-thumbnail{
+        width: 100%!important;
+        height: 70vh;
+        display: block;
+        background-color: red;
+        overflow: hidden;
+        max-width: none;
+    }
+    .post-thumbnail img{
+        height: 100%;
+    object-fit: contain;
+    display: block;
+    width: 100%;
+    object-fit: cover;
+    }
+}
 
 @media screen and (min-width: 768px) {
     .site-header{
