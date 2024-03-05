@@ -8,10 +8,10 @@ function twentytwentyone_styles() {
 add_action( 'wp_enqueue_scripts', 'twentytwentyone_styles');
 
 
-function add_google_fonts() {
-
-
-
-	wp_register_style('add_google_font', 'https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:wght@300;400;700&display=swap', array(), null);
-wp_enqueue_style('add_google_font');
-}
+function wpb_add_google_fonts() {
+  
+	wp_enqueue_style( 'wpb-google-fonts', 'https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,700italic,400,700,300', false ); 
+	}
+	  
+	add_action( 'wp_enqueue_scripts', 'wpb_add_google_fonts' );
+	
