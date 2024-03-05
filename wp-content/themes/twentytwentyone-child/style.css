@@ -106,7 +106,8 @@ background: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0) 96.35%);
         font-size: 2em;
         height: 100%;
     }
-    .post-thumbnail{
+    .post-thumbnail,
+    .hero{
         width: 100%!important;
         height: 70vh;
         display: block;
@@ -114,7 +115,8 @@ background: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0) 96.35%);
         overflow: hidden;
         max-width: none;
     }
-    .post-thumbnail img{
+    .post-thumbnail img,
+    .hero img{
         height: 100%!important;
     object-fit: contain!important;
     display: block!important;
@@ -571,7 +573,7 @@ header.entry-header figure img{
 
 .archive-description{
     max-width: 700px;
-    margin: 2em 2em;
+    margin: 2em 1em;
     text-align: center;
 }
 @media screen and (min-width: 1024px) {
