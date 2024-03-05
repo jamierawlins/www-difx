@@ -592,9 +592,9 @@ header.entry-header figure img{
     }
 }
 .right-project-details h2{
-    font-size: 3em;
-    line-height: 3em;
-    margin: 0 0 2rem 0;
+    font-size: 2.6em;
+    line-height: 1.1em!important;
+    margin: 0 1rem 2rem 0;
 }
 @media screen and (max-width: 767px) {
     .left-project-details {
