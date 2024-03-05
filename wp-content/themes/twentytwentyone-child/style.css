@@ -58,6 +58,9 @@ a:hover{
 .menu-button-container #primary-mobile-menu{
     color:white!important;
 }
+.primary-navigation-open .menu-button-container #primary-mobile-menu{
+    color:black!important;
+}
 .site-header{
     position: absolute;
     width: 100%;
