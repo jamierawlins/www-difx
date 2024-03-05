@@ -661,7 +661,7 @@ header.entry-header figure img{
 }
 .back{
     position:relative;
-    min-height: 570px;
+    min-height: 370px;
 }
 @media screen and (min-width: 768px) {
     .back{
@@ -677,8 +677,8 @@ header.entry-header figure img{
     -moz-border-radius: 400px;
     -ms-border-radius: 400px;
     -o-border-radius: 400px;
-    width: 300px;
-    height: 300px;
+    width: 200px;
+    height: 200px;
     display: block;
     margin: 0 auto;
     color: white;
@@ -693,14 +693,16 @@ header.entry-header figure img{
     margin: auto;
     top: 0;
     bottom: 0;
-    font-size: 1.8em;
+    font-size: 1.2em;
     padding: 1em;
     text-decoration: none;
+    line-height:normal;
 }
 @media screen and (min-width: 768px) {
     .back a{
         width: 300px;
         height: 300px;
+        font-size: 1.8em;
     }
 }
 .embed-container { 
@@ -783,4 +785,28 @@ footer .social ul li{
 }
 footer .social ul li svg{
     width: 40px;
+}
+
+
+
+.navigation .nav-links .nav-next a, .navigation .nav-links .nav-previous a {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.post-navigation .meta-nav {
+    line-height: var(--global--line-height-body);
+    color: var(--global--color-primary);
+    font-size: 1.1rem;
+}
+
+@media only screen and (min-width: 822px){
+    .post-navigation .post-title {
+        margin: 5px calc(24px + 0.25 * var(--global--spacing-unit)) 0;
+        font-size: 1.1rem;
+        line-height: var(--global--line-height-body);
+    color: var(--global--color-primary);
+    font-size: 1.1rem;
+    }
 }
