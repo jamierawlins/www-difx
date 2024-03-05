@@ -800,13 +800,9 @@ footer .social ul li svg{
     color: var(--global--color-primary);
     font-size: 1.1rem;
 }
-
-@media only screen and (min-width: 822px){
     .post-navigation .post-title {
         margin: 5px calc(24px + 0.25 * var(--global--spacing-unit)) 0;
         font-size: 1.1rem;
         line-height: var(--global--line-height-body);
-    color: var(--global--color-primary);
-    font-size: 1.1rem;
+        color: var(--global--color-primary);
     }
-}
