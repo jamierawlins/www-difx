@@ -801,7 +801,7 @@ footer .social ul li svg{
     font-size: 1.1rem;
 }
     .post-navigation .post-title {
-        margin: 5px calc(24px + 0.25 * var(--global--spacing-unit)) 0;
+        margin: 0 5px;
         font-size: 1.1rem;
         line-height: var(--global--line-height-body);
         color: var(--global--color-primary);
