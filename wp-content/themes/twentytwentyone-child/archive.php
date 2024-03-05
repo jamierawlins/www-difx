@@ -54,9 +54,7 @@ $description = get_the_archive_description();
 	.back .bottom-shape path, .back .top-shape path, .bottom-shape path{
 		fill: <?php the_field('colour-one'); ?>;
 	}
-	.post-thumbnail{
-		background-color: <?php the_field('colour-one'); ?>;
-	}
+	
 	
 </style>
 <?php twenty_twenty_one_the_posts_navigation(); ?>
