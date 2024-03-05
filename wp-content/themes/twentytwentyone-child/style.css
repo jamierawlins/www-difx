@@ -98,11 +98,11 @@ a:hover{
         max-width: none;
     }
     .post-thumbnail img{
-        height: 100%;
-    object-fit: contain;
-    display: block;
-    width: 100%;
-    object-fit: cover;
+        height: 100%!important;
+    object-fit: contain!important;
+    display: block!important;
+    width: 100%!important;
+    object-fit: cover!important;
     }
 }
 
