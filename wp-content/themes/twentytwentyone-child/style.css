@@ -55,7 +55,9 @@ a:hover{
     opacity:.4;
 }
 /* HEADER */
-
+.menu-button-container #primary-mobile-menu{
+    color:white!important;
+}
 .site-header{
     position: absolute;
     width: 100%;
