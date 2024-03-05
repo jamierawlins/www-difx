@@ -111,7 +111,6 @@ background: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0) 96.35%);
         width: 100%!important;
         height: 70vh;
         display: block;
-        background-color: red;
         overflow: hidden;
         max-width: none;
     }
@@ -416,7 +415,7 @@ header.entry-header figure img{
     margin:0;
 }
 .projects-wrap .project{
-    height: 400px;
+
     position: relative;
     overflow:hidden;
 
@@ -464,9 +463,9 @@ header.entry-header figure img{
 }
 .projects-wrap .project figure{
     margin: 0;
-    padding: 0;
+    padding: 1em;
     width: 100%;
-    position: absolute;
+    position: relative;
     bottom: 0px;
     transition: all .5s ease;
     -webkit-transition: all .5s ease;
@@ -479,6 +478,8 @@ header.entry-header figure img{
         width: 50%;
         max-width: 50%;
         top:0px;
+        position: absolute;
+        padding: 0;
     }
     .projects-wrap .project h2{
         z-index: 10;
