@@ -28,18 +28,18 @@ body{
 }
 
 h1,h2,h3,h4,h5,h6{
-    font-family: 'Bebas Neue', sans-serif;
+    font-family: "Bebas Neue", sans-serif;
     line-height: normal!important;
 }
 p{
     line-height: initial;
-    font-family: 'Open Sans', serif;
+    font-family: "Open Sans", sans-serif;
     font-size: 1.2rem;
 }
 @media screen and (min-width: 1024px) {
     p{
         line-height: initial;
-        font-family: 'Open Sans', serif;
+        font-family: "Open Sans", sans-serif;
         font-size: 1.5rem;
     }
 }
@@ -120,7 +120,7 @@ a:hover{
     }
 }
 nav li a{
-    font-family: 'Bebas Neue', sans-serif!important;
+    font-family: "Bebas Neue", sans-serif!important;
     text-transform:uppercase;
 }
 @media screen and (min-width: 768px) {

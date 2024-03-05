@@ -10,7 +10,7 @@ add_action( 'wp_enqueue_scripts', 'twentytwentyone_styles');
 
 function wpb_add_google_fonts() {
   
-	wp_enqueue_style( 'wpb-google-fonts', 'https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:wght@300;400;700&display=swap', false ); 
+	wp_enqueue_style( 'wpb-google-fonts', 'https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap', false ); 
 	}
 	  
 	add_action( 'wp_enqueue_scripts', 'wpb_add_google_fonts' );
