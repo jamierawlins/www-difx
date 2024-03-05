@@ -429,6 +429,7 @@ header.entry-header figure img{
         z-index: 10;
         position: absolute;
         top: 1em;
+        bottom:auto;
         right: 52%;
     }
     .projects-wrap .project:nth-child(even) figure{
