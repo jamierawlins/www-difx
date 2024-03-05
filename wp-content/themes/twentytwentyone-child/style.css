@@ -318,12 +318,17 @@ header.entry-header figure img{
     }
 }
 .clients ul{
-    margin: 2em 0;
+    margin: 2em;
     padding: 0;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+}
+@media screen and (min-width: 768px) {
+    .clients ul{
+        margin: 2em 0;
+    }
 }
 .clients ul li{
     display: inline-block;
