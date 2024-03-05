@@ -114,13 +114,21 @@ background: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0) 96.35%);
         overflow: hidden;
         max-width: none;
     }
+    article.project .post-thumbnail,
+    article.project .hero{
+        width: 100%!important;
+        height: auto;
+        display: block;
+        overflow: hidden;
+        max-width: none;
+    }
     .post-thumbnail img,
     .hero img{
         height: 100%!important;
-    object-fit: contain!important;
-    display: block!important;
-    width: 100%!important;
-    object-fit: cover!important;
+        object-fit: contain!important;
+        display: block!important;
+        width: 100%!important;
+        object-fit: cover!important;
     }
 }
 
