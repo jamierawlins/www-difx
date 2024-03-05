@@ -196,7 +196,7 @@ if ( ! function_exists( 'twenty_twenty_one_post_thumbnail' ) ) {
 
 		<?php else : ?>
 
-			<figure class="post-thumbnail">
+			<figure class="post-thumbnail" style="background-color:<?php the_field('colour-one'); ?>>
 				<a class="post-thumbnail-inner alignwide" href="<?php the_permalink(); ?>" aria-hidden="true" tabindex="-1">
 					<?php the_post_thumbnail( 'post-thumbnail' ); ?>
 				</a>
