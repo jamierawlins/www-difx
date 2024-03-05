@@ -389,7 +389,7 @@ header.entry-header figure img{
 .projects-wrap .project .description svg{
     position:absolute;
     top:0px;
-    right:0px;    
+    right:-6px;    
     width:50%;
     height:auto;
     max-width: 339px;
@@ -494,7 +494,7 @@ header.entry-header figure img{
     transform: rotate(270deg);
     position:absolute;
     top:auto;
-    left:0px;
+    left:-6px;
     bottom:0px;
     width:30%;
     height:auto;
