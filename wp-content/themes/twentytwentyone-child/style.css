@@ -64,6 +64,18 @@ a:hover{
     padding: 0em 1em 0em 1em;
     max-width: 100%;
 }
+.site-header::before{
+
+
+position: absolute;
+width: 100%;
+height: 143px;
+left: 0px;
+top: 0px;
+
+background: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0) 96.35%);
+
+}
 .primary-navigation a{
     color:black!important;
     font-size:2em;
