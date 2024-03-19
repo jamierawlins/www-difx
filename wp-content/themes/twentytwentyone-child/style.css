@@ -661,6 +661,9 @@ header.entry-header figure img{
     }
 
 }
+.project-detail a{
+    text-decoration: none;
+}
 .project-detail a span{
     transition:1s all ease-in-out;
     -webkit-transition:1s all ease-in-out;
@@ -670,7 +673,7 @@ header.entry-header figure img{
     text-decoration: none;
 }
 .project-detail a:hover span{
-    margin:0 0 0 1em;
+    margin:0 0 0 .5em;
 
 }
 @media screen and (min-width: 768px) {
