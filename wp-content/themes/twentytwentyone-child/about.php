@@ -27,7 +27,7 @@ get_header();
     <?php if( have_rows('award-repeater') ): ?>
         <ul class="award-repeater">
         <?php while( have_rows('award-repeater') ): the_row(); ?>
-            <li>
+            <li data-aos="zoom-in-up">
                 <h3><?php the_sub_field('award'); ?></h3>
                 <p><?php the_sub_field('award-ceremony'); ?></p>
                 <p><?php the_sub_field('award-date'); ?></p>
@@ -44,7 +44,7 @@ get_header();
         <?php while( have_rows('clients-repeater') ): the_row(); 
             $image = get_sub_field('image');
             ?>
-            <li>
+            <li  data-aos="zoom-in-up">
                 
                 <p><?php the_sub_field('client'); ?></p>
             </li>/ 
