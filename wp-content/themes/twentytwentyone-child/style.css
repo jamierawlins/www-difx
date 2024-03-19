@@ -895,11 +895,11 @@ footer .social ul li svg{
 
 div.wpforms-container-full{
     background: #000000!important;
-    padding:4em 0;
+    padding:4em 2em;
     max-width: 100% !important;
 }
 .wpforms-container form{
-    max-width: var(--responsive--aligndefault-width);
+    max-width: 1200px;
     margin-left: auto;
     margin-right: auto;
 }
