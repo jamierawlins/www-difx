@@ -18,7 +18,7 @@ get_header();
     <?php twenty_twenty_one_post_thumbnail(); ?>
 </div>
 <?php the_post(); ?>
-<?php the_content();  data-aos="fade-up" ?>
+<?php the_content(); ?>
 
 
 <div class="awards">
