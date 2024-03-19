@@ -23,3 +23,9 @@ function wpb_add_google_fonts_bebas() {
 	
 	add_action( 'wp_enqueue_scripts', 'wpb_add_google_fonts_bebas' );
 	
+
+wp_register_style( 'AOS_style', 'https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css' );
+	wp_enqueue_style('AOS_style');
+	
+wp_register_script( 'AOS_js', 'https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js', null, null, true );
+	wp_enqueue_script('AOS_js');`
