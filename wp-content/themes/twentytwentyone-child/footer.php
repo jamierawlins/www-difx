@@ -78,16 +78,7 @@
 <?php wp_footer(); ?>
 
 <script>
-    $('.animate_right').attr({
-        "data-aos": "fade-right",
-        "data-aos-once": "false",
-        "data-aos-duration": "600"       
-    });
-    
-    // now initialize AOS
     AOS.init();
-  </script>
-  <script>
-	
+</script>
 </body>
 </html>
