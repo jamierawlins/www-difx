@@ -665,11 +665,11 @@ header.entry-header figure img{
     text-decoration: none;
 }
 .project-detail a span{
-    transition:1s all ease-in-out;
-    -webkit-transition:1s all ease-in-out;
-    -moz-transition:1s all ease-in-out;
-    -ms-transition:1s all ease-in-out;
-    -o-transition:1s all ease-in-out;
+    transition:.4s all ease-in-out;
+    -webkit-transition:.4s all ease-in-out;
+    -moz-transition:.4s all ease-in-out;
+    -ms-transition:.4s all ease-in-out;
+    -o-transition:.4s all ease-in-out;
     text-decoration: none;
 }
 .project-detail a:hover span{
