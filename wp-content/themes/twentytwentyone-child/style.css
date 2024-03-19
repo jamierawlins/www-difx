@@ -199,7 +199,13 @@ header.entry-header{
     width: 100%;
     max-width: 100%;
 }
-
+@media screen and (min-width: 1024px) {
+    .hero,
+    header.entry-header{
+        max-height: 90vh;
+        overflow: hidden;
+    }
+}
 .hero h1,
 header.entry-header h1{
     position: absolute;
@@ -251,7 +257,8 @@ header.entry-header figure img{
         margin: 0 1em 1em 0em;
     }
     .awards p {
-        margin: 0 6em 1em 6em;
+        margin: 0 6em 3em 6em;
+        max-width: 1024px;
     }
 }
 @media screen and (min-width:1024px) {
@@ -261,7 +268,7 @@ header.entry-header figure img{
         justify-content: center;
     }
     .page-template-about .wp-block-columns h2{
-        margin: 0 1em 1em .4em;
+        margin: 0 1em 1em 0em;
         text-align: left;
     }   
     .page-template-about .wp-block-columns p{
@@ -298,6 +305,9 @@ header.entry-header figure img{
     text-align: center;
     margin: .5em 1em;
     width:100%;
+}
+.award-repeater li p{
+    margin:0 6em .2em 6em;
 }
 @media screen and (min-width: 768px) {
     .award-repeater li{
@@ -426,7 +436,7 @@ header.entry-header figure img{
 
     position: relative;
     overflow:hidden;
-
+    margin-bottom:2em;
 }
 @media screen and (min-width: 768px) {
     .projects-wrap .project{
@@ -698,7 +708,7 @@ header.entry-header figure img{
     }
     .right-project-details h2{
         font-size: 4em;
-        line-height: 1.2em!important;
+        line-height: 1em!important;
         margin: 0 0 2rem 0;
     }
 }
