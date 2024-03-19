@@ -79,22 +79,17 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 <script>
-    jQuery('.page-template-home .home-intro-wrapper h2').attr({
+    jQuery('.page-template-home .home-intro-wrapper h2, .page-template-home .home-intro-wrapper p, .project-detail').attr({
         "data-aos": "fade-right",
         "data-aos-once": "false",
         "data-aos-duration": "600"       
       });
-	  jQuery('.page-template-home .home-intro-wrapper p').attr({
-        "data-aos": "fade-right",
-        "data-aos-once": "false",
-        "data-aos-duration": "600"       
-      });
-	  jQuery('.archive-description p, .right-project-details').attr({
+	  jQuery('.archive-description p, .right-project-details, .image-container').attr({
         "data-aos": "fade-up",
         "data-aos-once": "false",
         "data-aos-duration": "600"       
       });
-	  jQuery('.project-detail').attr({
+	  jQuery('').attr({
         "data-aos": "fade-right",
         "data-aos-once": "false",
         "data-aos-duration": "600"       
