@@ -890,3 +890,15 @@ footer .social ul li svg{
         line-height: var(--global--line-height-body);
         color: var(--global--color-primary);
     }
+
+/* CONTACT */
+
+.wpforms-container{
+    background: #000000;
+    padding:4em 0;
+}
+.wpforms-container form{
+    max-width: var(--responsive--aligndefault-width);
+    margin-left: auto;
+    margin-right: auto;
+}
