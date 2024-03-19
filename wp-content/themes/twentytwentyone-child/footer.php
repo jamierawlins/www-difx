@@ -78,7 +78,7 @@
 <?php wp_footer(); ?>
 
 <script>
-    $jQuery('.global-media-settings:after').attr({
+    jQuery('.global-media-settings:after').attr({
         "data-aos": "zoom-in",
         "data-aos-once": "false",
         "data-aos-duration": "600"       
