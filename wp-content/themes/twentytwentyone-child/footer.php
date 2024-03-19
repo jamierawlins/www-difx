@@ -89,8 +89,13 @@
         "data-aos-once": "false",
         "data-aos-duration": "600"       
       });
-	  jQuery('.archive-description p').attr({
+	  jQuery('.archive-description p, .right-project-details').attr({
         "data-aos": "fade-up",
+        "data-aos-once": "false",
+        "data-aos-duration": "600"       
+      });
+	  jQuery('.project-detail').attr({
+        "data-aos": "fade-right",
         "data-aos-once": "false",
         "data-aos-duration": "600"       
       });
