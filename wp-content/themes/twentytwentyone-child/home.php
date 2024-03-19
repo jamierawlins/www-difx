@@ -74,7 +74,7 @@ get_header();
     wp_reset_postdata();
 ?>
 </div>
-<div class="back">
+<div class="back" data-aos="zoom-in-up">
     <a href="/projects">View all Projects</a>
 </div
 <?php
