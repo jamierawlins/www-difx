@@ -89,6 +89,11 @@
         "data-aos-once": "false",
         "data-aos-duration": "600"       
       });
+	  jQuery('.archive-description p').attr({
+        "data-aos": "fade-up",
+        "data-aos-once": "false",
+        "data-aos-duration": "600"       
+      });
     AOS.init();
   </script>
 </body>

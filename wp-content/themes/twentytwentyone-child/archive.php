@@ -31,7 +31,7 @@ $description = get_the_archive_description();
 
 <div class="projects-wrap">
 	<?php while ( have_posts() ) : ?>
-		<article class="project">
+		<article class="project" data-aos="fade-up">
 		
 			<?php the_post(); ?>
 			<div class="description" style="background-color:<?php the_field('colour-one'); ?>">
