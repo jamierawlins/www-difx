@@ -76,8 +76,17 @@
 </div><!-- #page -->
 
 <?php wp_footer(); ?>
+
 <script>
-  AOS.init();
-</script>
+    // first add attributes
+    $('.page-template-home h2.wp-block-heading').attr({
+        "data-aos": "fade-right",
+        "data-aos-once": "false",
+        "data-aos-duration": "600"       
+    });
+    
+    // now initialize AOS
+    AOS.init();
+  </script>
 </body>
 </html>
