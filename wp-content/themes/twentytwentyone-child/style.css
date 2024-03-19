@@ -884,17 +884,17 @@ footer .social ul li svg{
     color: var(--global--color-primary);
     font-size: 1.1rem;
 }
-    .post-navigation .post-title {
-        margin: 0 5px;
-        font-size: 1.1rem;
-        line-height: var(--global--line-height-body);
-        color: var(--global--color-primary);
-    }
+.post-navigation .post-title {
+    margin: 0 5px;
+    font-size: 1.1rem;
+    line-height: var(--global--line-height-body);
+    color: var(--global--color-primary);
+}
 
 /* CONTACT */
 
-.wpforms-container{
-    background: #000000;
+div.wpforms-container-full{
+    background: #000000!important;
     padding:4em 0;
 }
 .wpforms-container form{
