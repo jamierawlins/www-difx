@@ -78,7 +78,12 @@
 <?php wp_footer(); ?>
 
 <script>
+    $('.global-media-settings:after').attr({
+        "data-aos": "zoom-in",
+        "data-aos-once": "false",
+        "data-aos-duration": "600"       
+      });
     AOS.init();
-</script>
+  </script>
 </body>
 </html>
