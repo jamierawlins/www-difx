@@ -13,7 +13,7 @@
 
 get_header();
 ?>
-<div class="hero">
+<div class="hero" data-aos="zoom-out-down">
 
 	<img src="http://digitalimagingfx.com/wp-content/uploads/2023/11/project-hero-1.jpg" />
     
