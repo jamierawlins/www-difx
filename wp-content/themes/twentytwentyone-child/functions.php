@@ -23,15 +23,9 @@ function wpb_add_google_fonts_bebas() {
 	
 	add_action( 'wp_enqueue_scripts', 'wpb_add_google_fonts_bebas' );
 	
-function register_scripts_and_styles() {
-	// Enqueue AOS styles
-	wp_enqueue_style(' AOS_animate', 'https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css', false, null);
-
-	// Enqueue AOS script library in footer
-	wp_eqneue_script('AOS', 'https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js', false, null, true);
-
-	// For the JavaScript that initializes AOS, it's best if you manage that in a separate
-	// JS file and enqueue it as a dependency of AOS script library. That way, it ensures the
-	// order of your scripts.
-	wp_('theme-js', 'path/to/theme.js', ['AOS'], null, true);
-}
+	add_action( 'wp_enqueue_scripts', 'add_aos_animation' );
+	function add_aos_animation() {
+		wp_enqueue_style('AOS_animate', 'https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css', false, null);
+		wp_enqueue_script('AOS', 'https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js', false, null, true);
+		wp_enqueue_script('theme-js', get_template_directory_uri() . '/js/theme.js', array( 'AOS' ), null, true);
+	}
