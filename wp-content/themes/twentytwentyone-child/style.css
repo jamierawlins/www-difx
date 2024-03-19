@@ -661,6 +661,14 @@ header.entry-header figure img{
     }
 
 }
+.project-detail a{
+    transition:1s all ease-in-out;
+    -webkit-transition:1s all ease-in-out;
+    -moz-transition:1s all ease-in-out;
+    -ms-transition:1s all ease-in-out;
+    -o-transition:1s all ease-in-out;
+    text-decoration: none;
+}
 .project-detail a:hover span{
     margin:0 0 0 1em;
 
