@@ -76,9 +76,9 @@
 </div><!-- #page -->
 
 <?php wp_footer(); ?>
-
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 <script>
-    jQuery('.global-media-settings:after').attr({
+    $('.global-media-settings:after').attr({
         "data-aos": "zoom-in",
         "data-aos-once": "false",
         "data-aos-duration": "600"       
