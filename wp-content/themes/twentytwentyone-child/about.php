@@ -44,7 +44,7 @@ get_header();
         <?php while( have_rows('clients-repeater') ): the_row(); 
             $image = get_sub_field('image');
             ?>
-            <li  data-aos="zoom-in-up">
+            <li data-aos="zoom-in-up">
                 
                 <p><?php the_sub_field('client'); ?></p>
             </li>/ 
