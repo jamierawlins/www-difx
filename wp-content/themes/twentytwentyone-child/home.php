@@ -14,10 +14,10 @@
 get_header();
 ?>
 <div class="hero" >
-<p>test</p>
+
 <div style="padding:56.25% 0 0 0;position:relative;">
     <iframe src="https://player.vimeo.com/video/1022882227?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="SHOWREEL FINAL CLEAN v2"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
-    
+        <p>test</p>
 </div>
 <div class="home-intro-wrapper">
 <svg data-aos="fade-right" xmlns="http://www.w3.org/2000/svg" class="top-shape" width="339" height="327" viewBox="0 0 339 327" fill="none">
